@@ -1,0 +1,17 @@
+syntax: glob
+
+weltmeister.html
+server.py
+lib/impact/**
+lib/weltmeister
+media/**
+tools/**
+*~
+*.swp
+
+.DS_Store
+thumbs.db
+*.bat
+*.sh
+*.lnk
+*.url
