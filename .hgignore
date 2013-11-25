@@ -3,7 +3,7 @@ syntax: glob
 weltmeister.html
 server.py
 lib/impact/**
-lib/weltmeister
+lib/weltmeister/**
 media/**
 tools/**
 *~
