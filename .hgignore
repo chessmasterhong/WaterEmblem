@@ -4,7 +4,6 @@ weltmeister.html
 server.py
 lib/impact/**
 lib/weltmeister/**
-media/**
 tools/**
 *~
 *.swp
