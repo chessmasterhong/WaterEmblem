@@ -2,33 +2,46 @@
 <html lang="en-us">
     <head>
         <meta charset="utf-8">
-        <title>Impact Game</title>
+        <title>Demo</title>
 
         <style type="text/css">
             html, body {
-                background-color: black;
-                color: white;
-                font-family: helvetica, arial, sans-serif;
-                font-size: 12pt;
-                margin: 0; padding: 0;
-                text-align: center;
+                background-color: #1A1A1A;
+                color: #FFFFFF;
+                font-family: Arial, Helvetica, sans-serif;
             }
 
-            header {
-                display: block;
-                font-size: 32px;
-                font-weight: bold;
-                
-            }
-            
-            footer {
-                display: block;
-                font-size: 12px;
+            #container {
+                margin: 0px auto;
+                width: 640px;
             }
 
             #canvas {
-                margin: auto;
-                display: block;
+                border: 1px solid #2F2F2F;
+                margin: 40px auto 20px;
+
+                /* Provides a hint to the user agent about how to handle its image rendering.
+                 * http://phrogz.net/tmp/canvas_image_zoom.html
+                 * http://stackoverflow.com/questions/3900436/image-scaling-by-css-is-there-a-webkit-alternative-for-moz-crisp-edges/8888964
+                 */
+                image-rendering: optimizeSpeed;             /* Legal fallback */
+                image-rendering: -moz-crisp-edges;          /* Firefox        */
+                image-rendering: -o-crisp-edges;            /* Opera          */
+                image-rendering: -webkit-optimize-contrast; /* Webkit         */
+                image-rendering: optimize-contrast;         /* CSS3 Proposed  */
+                image-rendering: crisp-edges;               /* CSS4 Proposed  */
+                image-rendering: pixelated;                 /* CSS4 Proposed  */
+                -ms-interpolation-mode: nearest-neighbor;   /* IE8+           */
+            }
+
+            #controls {
+                font-size: 11pt;
+            }
+
+            .key {
+                border: 1px solid #FFFFFF;
+                font-family: "Courier New", Courier, monospace;
+                padding: 0 4px;
             }
         </style>
 
@@ -36,13 +49,20 @@
         <script type="text/javascript" src="lib/game/main.js"></script>
     </head>
     <body>
-        <header>Hello</header><br>
-
-        <div id="content">
+        <header></header>
+        <div id="container">
             <canvas id="canvas"></canvas>
-            <section>up down left right</section><br>
+            <div id="controls">
+                Movement: <span class="key">&uarr;</span> ,
+                          <span class="key">&darr;</span> ,
+                          <span class="key">&larr;</span> ,
+                          <span class="key">&rarr;</span> ,
+                          <span class="key">W</span> ,
+                          <span class="key">S</span> ,
+                          <span class="key">A</span> ,
+                          <span class="key">D</span>
+            </div>
         </div>
-
-        <footer>blah blah blah</footer>
+        <footer></footer>
     </body>
 </html>
