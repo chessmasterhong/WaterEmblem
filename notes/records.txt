@@ -1,0 +1,96 @@
+################################################################################
+# Records / Completed Tasks                                                    #
+################################################################################
+
+--------------------------------------------------------------------------------
+Milestone 1: Basic nagivation around the game world and basic battle system.
+[COMPLETE]  December 31, 2013
+--------------------------------------------------------------------------------
+
+Code refactoring, optimization, and cleanup.
+[COMPLETE]  December 31, 2013
+    Before moving on to the next step, the codebase needs to be cleaned up by
+    refactoring (repeated) code, adding function descriptions and more comments,
+    and reducing unnecessary variables/properties and function calls.
+
+    Also, try to adhere to the ECMAScript 5 (JavaScript 1.8.5) strict mode to
+    try to catch previously silent errors. As of ImpactJS 1.20, "the whole
+    engine has been put into strict mode, which improves performance a bit and
+    also surfaced global var[iable] leakage in some places" and has recommended
+    to enable strict mode for other modules as well.
+
+    "Strict mode makes several changes to normal JavaScript semantics. First,
+    strict mode eliminates some JavaScript silent errors by changing them to
+    throw errors. Second, strict mode fixes mistakes that make it difficult for
+    JavaScript engines to perform optimizations: strict mode code can sometimes
+    be made to run faster than identical code that's not strict mode. Third,
+    strict mode prohibits some syntax likely to be defined in future versions of
+    ECMAScript."
+
+    Some of the earlier browser versions does not support strict mode but this
+    should not be too much of a problem since the ImpactJS is targeted for
+    HTML5-capable browsers (most modern browsers today) although support for
+    previous browsers may be considered in the future.
+
+    Resources: http://impactjs.com/blog/2012/05/impact-1-20
+               http://impactjs.com/forums/help/using-use-strict/page/1
+               https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode
+
+
+Random enemy generation on battlefield based on encounter zone.
+[COMPLETE]  December 27, 2013
+    Generate random enemies based on the zone area defined in the encounter zone
+    entity and random positions on the battlefield to place the newly generated
+    enemies. This gives additional variety to battles such that the exact
+    enemies and positions cannot be predetermined beforehand. There should be a
+    method to keep track of the generated enemies to determine which enemies are
+    active, inactive, defeated, etc. on the battlefield.
+
+
+Exit battle mode.
+[COMPLETE]  December 26, 2013
+    Allow the player to exit the current battle map (when certain conditions are
+    met) and back to the player's location on the map before entering battle.
+    For now the condition can be simple trigger (just to test the transition
+    into and out of battle mode) but later on, the goal condition is to defeat
+    all or specific enemies (or be completely defeated by the enemy) on the
+    battle map.
+
+
+Improve random battle encounters with encounter zones.
+[COMPLETE]  December 27, 2013
+    Create a method of designating encounter zones and use it in combination
+    with the current random encounters to allow setting up specific tiles for
+    encounters. This will allow the ability to create more irregular shaped
+    zones for encounters (rather than the whole map), or different encounter
+    zones on the same map (each with their own set of enemies or level of
+    difficulty).
+
+
+Random battle encounters.
+[COMPLETE]  November 30, 2013
+    When the player moves from one tile to another in the grid movement, the
+    player will have a chance to enter battle. The battle state can be a new
+    game state or a special map in which the player is moved to temporarily
+    until the battle is over.
+
+
+Map/Level transition entity.
+[COMPLETE]  November 29, 2013
+    Create a map transition entity that when the player steps/collides with it,
+    the player will move to another map at a specific location of the
+    destination map. Doing so would allow the movement of the player into new
+    maps to give the feel of a transition of going from one room to another, or
+    going from outdoor to indoor, etc.
+
+    Resources: See SMW-Koopa-Krisis's pipe entity for level and position change.
+
+
+Basic game display with top-down perspective and 4-directional movement.
+[COMPLETE]  November 24, 2013
+    Display game with a 4-directional "grid-like" movement (an example being one
+    of the older Pokémon games for the Game Boy). The user should be given a
+    top-down perspective of the game. A camera system should be added that is
+    centered on and follows the player.
+
+    Resource: https://github.com/lTyl/impact-grid-movement
