@@ -2,6 +2,29 @@
 # Records / Completed Tasks                                                    #
 ################################################################################
 
+Unit movement order.
+[IN PROGRESS]
+    Using the previously implemented enemy generator entity, implement a method
+    for the game to determine in which order units on the battlefield should
+    move. Some ideas would be: "All player's units move. All enemy's units
+    move. Repeat until one side's units are all defeated." or "Units are sorted
+    speed. Fastest unit moves first, second fastest unit moves next, and so on.
+    Repeat until one side's units are all defeated."
+
+
+Enemy pathfinding.
+[COMPLETE]  January 01, 2014
+    Implement or find a pathfinding algorithm for enemies to move toward the
+    player (and possibly friendly units in the future). The algorithm should be
+    able to avoid obstacles as we may need this functionality for certain
+    battlefield areas that are impassable. The movement for pathfinding enemies
+    should be compatible with the existing grid movement. Consider looking at
+    the Impact A* for Entities plugin and try to adapt it towards the
+    aforementioned goals.
+
+    Resources: https://github.com/hurik/impact-astar-for-entities
+
+
 --------------------------------------------------------------------------------
 Milestone 1: Basic nagivation around the game world and basic battle system.
 [COMPLETE]  December 31, 2013
@@ -28,7 +51,7 @@ Code refactoring, optimization, and cleanup.
     ECMAScript."
 
     Some of the earlier browser versions does not support strict mode but this
-    should not be too much of a problem since the ImpactJS is targeted for
+    should not be too much of a problem since ImpactJS is targeted for
     HTML5-capable browsers (most modern browsers today) although support for
     previous browsers may be considered in the future.
 
@@ -49,12 +72,12 @@ Random enemy generation on battlefield based on encounter zone.
 
 Exit battle mode.
 [COMPLETE]  December 26, 2013
-    Allow the player to exit the current battle map (when certain conditions are
-    met) and back to the player's location on the map before entering battle.
-    For now the condition can be simple trigger (just to test the transition
-    into and out of battle mode) but later on, the goal condition is to defeat
-    all or specific enemies (or be completely defeated by the enemy) on the
-    battle map.
+    Allow the player to exit the battlefield (when certain conditions are met)
+    and back to the player's location on the map before entering battle. For now
+    the condition can be simple trigger (just to test the transition into and
+    out of battle mode) but later on, the goal condition is to defeat all or 
+    specific enemies (or be completely defeated by the enemy) on the battlefield
+    or to flee the battle.
 
 
 Improve random battle encounters with encounter zones.
@@ -81,9 +104,10 @@ Map/Level transition entity.
     the player will move to another map at a specific location of the
     destination map. Doing so would allow the movement of the player into new
     maps to give the feel of a transition of going from one room to another, or
-    going from outdoor to indoor, etc.
+    going from outdoor to indoor, etc. See SMW-Koopa-Krisis's pipe entity for
+    level and position change.
 
-    Resources: See SMW-Koopa-Krisis's pipe entity for level and position change.
+    Resources: https://bitbucket.org/DrkSephy/smw-koopa-krisis/raw/3ab54322f174b160d73728b82a0aeb9e71dc269f/lib/game/entities/miscellaneous/pipe.js
 
 
 Basic game display with top-down perspective and 4-directional movement.
@@ -94,3 +118,4 @@ Basic game display with top-down perspective and 4-directional movement.
     centered on and follows the player.
 
     Resource: https://github.com/lTyl/impact-grid-movement
+
