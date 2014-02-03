@@ -2,7 +2,21 @@
 # Records / Completed Tasks                                                    #
 ################################################################################
 
-Player party (multiple player-controllable units).
+Enemy targets closest player party member in battle.
+[COMPLETE]  February 03, 2014
+    Currently, the enemy AI always targets a the first player party member to
+    get generated in the battle. Improve the existing enemy AI with the ability
+    to detect and target the closest player party member. A crude method of
+    doing so is to do a direct (linear) distance check from the active enemy to
+    all player party members. Then pick the member with the shortest distance
+    and begin pathfinding towards the target. Do note that this AI may be
+    exploited when a member is behind an object, such as a wall (enemy may
+    detect a member as the closest unit, ignoring the wall, and may waste their
+    turn trying to pathfind to the member when another member is more reachable
+    and not behind an obstacle).
+
+
+Player party (multiple player-controllable units) in battle.
 [COMPLETE]  February 02, 2014
     Building upon the single player-controllable unit we have been working with,
     implement a method of allowing multiple player-controllable units (a.k.a. a
@@ -11,7 +25,7 @@ Player party (multiple player-controllable units).
     Once that is done, then proceed with the battle operations already in place.
 
 
-Unit movement order.
+Unit movement order in battle.
 [COMPLETE]  February 01, 2014
     Using the previously implemented enemy generator entity, implement a method
     for the game to determine in which order units on the battlefield should
@@ -21,7 +35,7 @@ Unit movement order.
     Repeat until one side's units are all defeated."
 
 
-Enemy pathfinding.
+Enemy pathfinding in battle.
 [COMPLETE]  January 01, 2014
     Implement or find a pathfinding algorithm for enemies to move toward the
     player (and possibly friendly units in the future). The algorithm should be
