@@ -2,8 +2,17 @@
 # Records / Completed Tasks                                                    #
 ################################################################################
 
+Player party (multiple player-controllable units).
+[COMPLETE]  February 02, 2014
+    Building upon the single player-controllable unit we have been working with,
+    implement a method of allowing multiple player-controllable units (a.k.a. a
+    party) on the battlefield. This is done using a similar method to creating
+    the enemy units array and concatenating the party and enemy arrays together.
+    Once that is done, then proceed with the battle operations already in place.
+
+
 Unit movement order.
-[IN PROGRESS]
+[COMPLETE]  February 01, 2014
     Using the previously implemented enemy generator entity, implement a method
     for the game to determine in which order units on the battlefield should
     move. Some ideas would be: "All player's units move. All enemy's units
