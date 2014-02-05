@@ -2,6 +2,39 @@
 # Records / Completed Tasks                                                    #
 ################################################################################
 
+Character development system: level, experience, and statistics.
+[IN PROGRESS]   _____
+    Now that the core battle system is completed (i.e., we can conduct a full
+    combat from beginning to end), we can begin to branch off to various new
+    aspects of the game. One of the features in almost all RPGs is some form of
+    a character development system. A subcomponent of the system is stats. Users
+    should be able to customize their character. Should their character be
+    physically strong? Intelligent? Highly resilient? Quick and nimble? Or maybe
+    a particular mix of stats that suits the user's gameplay style.
+
+    Stats are broken into two major types: base stats and derived stats. Base
+    stats are the most basic stats in which all other stats are derived from.
+    Users can have direct input on how they wish to distribute their character's
+    base stats. As a result, each of the derived stats will increase (or
+    decrease) depending on how much stat points have been invested into each
+    base stat. Stat points are gained only when the character gains a level.
+    Levels are gained when a certain amount of experience is accumulated.
+    Experience is gained from doing stuff in game, ranging from competing
+    quests, attacking/defeating enemies, assisting allies, disarming traps, etc.
+
+    A stat system has already been implemented for the SMW-Koopa-Krisis-RPG, but
+    only a small part of the system is fully functional in that game. The stat
+    system can be reused for this game with deeper complexity and some balancing
+    tweaks.
+
+    Resources: https://bitbucket.org/chessmasterhong/smw-koopa-krisis-rpg/raw/b9b06011035118a363324462c7ef2ba96f322636/lib/game/entities/ai/basic_ai.js
+
+
+--------------------------------------------------------------------------------
+Milestone 2: Core battle system functionalities complete.
+[COMPLETE]  February 03, 2014
+--------------------------------------------------------------------------------
+
 Enemy targets closest player party member in battle.
 [COMPLETE]  February 03, 2014
     Currently, the enemy AI always targets a the first player party member to
@@ -98,7 +131,7 @@ Exit battle mode.
     Allow the player to exit the battlefield (when certain conditions are met)
     and back to the player's location on the map before entering battle. For now
     the condition can be simple trigger (just to test the transition into and
-    out of battle mode) but later on, the goal condition is to defeat all or 
+    out of battle mode) but later on, the goal condition is to defeat all or
     specific enemies (or be completely defeated by the enemy) on the battlefield
     or to flee the battle.
 
