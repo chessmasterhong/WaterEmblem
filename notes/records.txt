@@ -2,8 +2,9 @@
 # Records / Completed Tasks                                                    #
 ################################################################################
 
+
 Character development system: level, experience, and statistics.
-[IN PROGRESS]   _____
+[IN PROGRESS]  _____
     Now that the core battle system is completed (i.e., we can conduct a full
     combat from beginning to end), we can begin to branch off to various new
     aspects of the game. One of the features in almost all RPGs is some form of
@@ -27,11 +28,37 @@ Character development system: level, experience, and statistics.
     system can be reused for this game with deeper complexity and some balancing
     tweaks.
 
-    Resources: https://bitbucket.org/chessmasterhong/smw-koopa-krisis-rpg/raw/b9b06011035118a363324462c7ef2ba96f322636/lib/game/entities/ai/basic_ai.js
+    Resources:
+        https://bitbucket.org/chessmasterhong/smw-koopa-krisis-rpg/raw/b9b06011035118a363324462c7ef2ba96f322636/lib/game/entities/ai/basic_ai.js
 
+
+Unit movement and attack using mouse cursor.
+[ON HOLD]  _____
+    Currently, the game is using a keyboard-based movement and attack system. In
+    order to break from the traditional tile based movements and for the user's
+    ease of point-and-click commands, we would like to implement a method of
+    moving, attacking, and possibly other actions regarding the GUI using the
+    mouse cursor.
+
+    One method of doing so is using an invisible entity that follows the mouse
+    pointer. When the user clicks the mouse button, the entity will check for
+    collisions with a vaild entity. In turn, this will allow the valid entity to
+    register the mouse click and perform its actions, if any.
+
+    Resources:
+        http://impactjs.com/forums/help/how-to-handle-clicking
+        http://impactjs.com/forums/help/i-writed-whether-entity-is-clicked-function-which-need-to-be-improved/page/1
+
+
+Unit available movement tiles in battle.
+[COMPLETE]  February 07. 2014
+    Implement a method of highlighting a unit's possible movement tiles which
+    indicates which tiles the unit is allowed to move to during the unit's turn.
+    In the future, we will need to prevent highlighting tiles that the unit
+    cannot move to, such as their opposing enemy unit or collision tiles.
 
 --------------------------------------------------------------------------------
-Milestone 2: Core battle system functionalities complete.
+Milestone 2: Core battle system functionalities.
 [COMPLETE]  February 03, 2014
 --------------------------------------------------------------------------------
 
@@ -111,9 +138,10 @@ Code refactoring, optimization, and cleanup.
     HTML5-capable browsers (most modern browsers today) although support for
     previous browsers may be considered in the future.
 
-    Resources: http://impactjs.com/blog/2012/05/impact-1-20
-               http://impactjs.com/forums/help/using-use-strict/page/1
-               https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode
+    Resources:
+        http://impactjs.com/blog/2012/05/impact-1-20
+        http://impactjs.com/forums/help/using-use-strict/page/1
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode
 
 
 Random enemy generation on battlefield based on encounter zone.
@@ -163,7 +191,8 @@ Map/Level transition entity.
     going from outdoor to indoor, etc. See SMW-Koopa-Krisis's pipe entity for
     level and position change.
 
-    Resources: https://bitbucket.org/DrkSephy/smw-koopa-krisis/raw/3ab54322f174b160d73728b82a0aeb9e71dc269f/lib/game/entities/miscellaneous/pipe.js
+    Resources:
+        https://bitbucket.org/DrkSephy/smw-koopa-krisis/raw/3ab54322f174b160d73728b82a0aeb9e71dc269f/lib/game/entities/miscellaneous/pipe.js
 
 
 Basic game display with top-down perspective and 4-directional movement.
@@ -173,5 +202,6 @@ Basic game display with top-down perspective and 4-directional movement.
     top-down perspective of the game. A camera system should be added that is
     centered on and follows the player.
 
-    Resource: https://github.com/lTyl/impact-grid-movement
+    Resource:
+        https://github.com/lTyl/impact-grid-movement
 
