@@ -1,1 +1,15 @@
-*.DS_Store
+weltmeister.html
+server.py
+lib/impact/**
+lib/weltmeister/**
+tools/**
+
+
+.DS_Store
+thumbs.db
+*~
+*.swp
+*.bat
+*.sh
+*.lnk
+*.url
