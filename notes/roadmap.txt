@@ -9,16 +9,16 @@
 ----------------------------------------------------------------------------
 
 * Ability to select a unit, click a square and have that unit move
-  there through the A-Star Pathfinding plugin. 
+  there through the A-Star Pathfinding plugin.
 
 * Objective system. Maps can have different ways of being beaten based
   on the following objectives:
-      
-      -> By defeating the boss of the map, the chapter ends and the 
+
+      -> By defeating the boss of the map, the chapter ends and the
          player advances to the next map.
 
             -> To implement, we could assign a name ("Boss") to an enemy,
-               and on the kill() method we simply advance to the next 
+               and on the kill() method we simply advance to the next
                level.
 
       -> Turn based defend an area/allies. Given X amount of turns, we want
@@ -34,9 +34,9 @@
                the enemy entity. On collision, the player gets a game over.
 
 
-* Ability to end a player's turn prematurely by selecting a unit and 
+* Ability to end a player's turn prematurely by selecting a unit and
   clicking the same square. A window would then pop up saying "WAIT".
-      
+
       -> Dependency: GUI system needs to be built.
 
 
@@ -50,27 +50,27 @@
 ##############################################################################
 
 
-* Graphical User Interface functions the following way: 
-   
+* Graphical User Interface functions the following way:
+
    ->  By clicking on a player unit, after moving a player
        to a square, the menu pops up which is described below.
 
     -> By clicking on an enemy unit, we can display a menu which
        allows the player to view the enemy stats through a stat
-       screen. 
+       screen.
 
   * Has the following features:
 
     -> Main GUI window for MOVE, ATTACK, ITEM, TRADE, END.
-        -> MOVE: Allows the player to begin movement. 
+        -> MOVE: Allows the player to begin movement.
         -> ATTACK: If an enemy unit is adjacent to the player after moving,
-           the player can select to attack. Ideally, we want to highlight all 
+           the player can select to attack. Ideally, we want to highlight all
            "attack-able" squares for the player.
-        -> ITEM: Allows the player to open up their inventory and use an item. 
-        -> TRADE: Allows the player to trade with an adjacent player. 
-        -> WAIT: After moving, the player clicks this button to confirm. 
-        -> END: Allows the player to end the PLAYER PHASE prematurely. 
-            -> This is triggered by clicking any arbitrary square on the map 
+        -> ITEM: Allows the player to open up their inventory and use an item.
+        -> TRADE: Allows the player to trade with an adjacent player.
+        -> WAIT: After moving, the player clicks this button to confirm.
+        -> END: Allows the player to end the PLAYER PHASE prematurely.
+            -> This is triggered by clicking any arbitrary square on the map
                to pull up the menu.
         -> STATS: Pulls up a stat screen to show the players stats.
 
@@ -82,14 +82,14 @@
 
 * Maps need to be built, preferably with stategic locations for enemy placement.
 
-  -> Dependency: Graphics need to be created using GIMP and spritesheets. 
+  -> Dependency: Graphics need to be created using GIMP and spritesheets.
 
 
 ##############################################################################
 #                                  TERRAIN                                   #
 ##############################################################################
 
-* Terrain needs to be factored into stat calculations. The following terrains 
+* Terrain needs to be factored into stat calculations. The following terrains
   are planned:
 
     -> FORTRESS: If a unit is standing on it, they gain +2 DEF, +20 AVOID, and
@@ -98,9 +98,9 @@
     -> SAND: Grants +10 AVOID for a unit standing on it.
     -> MOUNTAIN: Grants +40 AVOID, +1 DEF for a unit standing on it.
 
-      -> Terrain stat calculations are dependent on a stat system. 
+      -> Terrain stat calculations are dependent on a stat system.
 
-* In the future, we would like to implement movement costs for each terrain. 
+* In the future, we would like to implement movement costs for each terrain.
 
     -> FORTRESS: No movement penalty.
     -> FOREST: Moving through a forest tile costs 2 movement.
@@ -114,12 +114,12 @@
 
 * The following stat system is proposed:
 
-    -> ATTACK: An integer representing the base attack of the unit. Maximum for 
+    -> ATTACK: An integer representing the base attack of the unit. Maximum for
                a base unit is 20. Total attack is computed as follows:
 
                     -> TOTAL ATTACK = ATTACK + Weapon attack value
 
-    -> MAGIC: An integer representing the base magic of the unit. Maximum for a 
+    -> MAGIC: An integer representing the base magic of the unit. Maximum for a
               base unit is 20. Total magic power is computed as follows:
 
                     -> TOTAL MAGIC = MAGIC + Weapon magic value
@@ -132,7 +132,7 @@
 
                   -> DAMAGE TAKEN = TOTAL ATTACK OF ENEMY - DEFENSE
 
-    -> RESISTANCE: An integer representing the base res of the unit. Maximum for all 
+    -> RESISTANCE: An integer representing the base res of the unit. Maximum for all
                    base units is 20. Damage recieved is computed as follows:
 
                   -> DAMAGE TAKEN = TOTAL MAGIC OF ENEMY - RESISTANCE
@@ -147,9 +147,9 @@
          -----------------------------------------------------------
 
          -> It would be nice to compute a critical hit rate. Critical
-            hits do triple total damage. Critical attacks always hit, 
-            therefore we compute a rand() of the critical hit rate 
-            first, and if false, then roll a rand() value of the 
+            hits do triple total damage. Critical attacks always hit,
+            therefore we compute a rand() of the critical hit rate
+            first, and if false, then roll a rand() value of the
             hit percentage and use that to determine hit/miss.
 
 
@@ -160,12 +160,12 @@
 * The ability to have players level up is needed for the stat system to flourish.
   Currently, here is how the player will progress through the level-up system:
 
-    -> For each enemy killed, we can compute the experience gained by the unit. 
-       If a higher level [player] unit kills a lower level [enemy] unit, the  
-       amount of experience gained is lower. Essentially we want an elastic 
+    -> For each enemy killed, we can compute the experience gained by the unit.
+       If a higher level [player] unit kills a lower level [enemy] unit, the
+       amount of experience gained is lower. Essentially we want an elastic
        formula for balanced level.
 
-    -> On level up, each stat has a rand() chance of increasing by +1. These 
+    -> On level up, each stat has a rand() chance of increasing by +1. These
        percentages would be hard-coded for each player due to classes. More
        on classes on the bottom of this.
 
@@ -175,10 +175,10 @@
         -> HOWEVER, after the player hits level 10, they can use a CLASS-CHANGE item
            to transform into an advanced unit. Their level resets to 1, and their
            stat caps will be raised. i.e: Maximum attack stat goes from 20 -> 30
-           for a Warrior. 
+           for a Warrior.
 
         -> To implement this, we can create items which change class by checking if
-           the level and class name match the item. 
+           the level and class name match the item.
 
         -> Advantages of changing class means more level ups, therefore higher possible
            stats and possibly new use of other weapons.
@@ -192,13 +192,13 @@
 * A Class progression system is proposed as follows:
 
       -> FIGHTER -> Turns into WARRIOR after level 10.
-          -> Can use Axes. 
+          -> Can use Axes.
       -> THIEF -> Turns into ASSASSIN after level 10.
           -> Can use Swords.
       -> WYVERN KNIGHT -> Turns into WYVERN LORD after level 10.
           -> Can use lances, can fly. (Meaning unaffected by terrain)
       -> MAGE -> Turns into SAGE after level 10.
-          -> Can use MAGIC. 
+          -> Can use MAGIC.
 
 
 
@@ -208,15 +208,18 @@
 
 * A simple weapon system is proposed.
 
-      -> SWORDS beat AXES. 
+      -> SWORDS beat AXES.
         -> Swords gain +20 HIT and +20 AVOID for the unit.
       -> AXES beat LANCES.
         -> Axes gain +20 HIT and +20 AVOID for the unit.
       -> LANCES beat SWORDS.
         -> Lances gain +20 HIT and +20 AVOID for the unit.
 
-        
 
+##############################################################################
+ADDITIONAL IDEAS (may or may or may not be implemented)
+
+* Fog of war
 
 
 

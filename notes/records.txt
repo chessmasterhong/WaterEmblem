@@ -3,6 +3,25 @@
 ################################################################################
 
 
+Terrains. (Kevin)
+[IN PROGRESS]  _____
+    To add strategical elements to the battle system, we want to implement a
+    terrain system. Each tile on the battlefield will have a terrain "attached"
+    to it. Units will gain bonuses and/or penalties depending on the terrain
+    that they are standing on and will offer advantages and disadvantages to
+    the unit when attacking or defending against another unit. Likewise, the
+    other unit will also be standing on a terrain and will have their respective
+    bonuses and/or penalties applied to them during attacking or defending.
+    
+    Each terrain has their own movement cost and when the unit traverses through
+    the terrain, this movement cost will be subtracted from the unit's available
+    movement. If the unit does not have enough movement to traverse through the
+    terrain (i.e., unit's movement < terrain movement cost), then the unit is
+    unable to move to that terrain. In the future, we wish to have the unit's
+    moveable tile visuals to display the true tiles that the unit can move while
+    taking terrain movement cost into account.
+
+
 Simple GUI menu prototype. (David)
 [COMPLETE]  February 22, 2014
     Implement a prototype GUI menu system as proof of concept on how to display
