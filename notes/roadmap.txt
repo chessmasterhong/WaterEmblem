@@ -93,7 +93,7 @@
   are planned:
 
     -> FORTRESS: If a unit is standing on it, they gain +2 DEF, +20 AVOID, and
-    recover 10 HP every turn.
+      recover 10 HP every turn.
     -> FOREST:  Grants +20 AVOID, +1 DEF for a unit standing on it.
     -> SAND: Grants +10 AVOID for a unit standing on it.
     -> MOUNTAIN: Grants +40 AVOID, +1 DEF for a unit standing on it.
