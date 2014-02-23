@@ -2,8 +2,27 @@
 # Records / Completed Tasks                                                    #
 ################################################################################
 
+
+Simple GUI menu prototype. (David)
+[COMPLETE]  February 22, 2014
+    Implement a prototype GUI menu system as proof of concept on how to display
+    GUIs in the game. The menu should be able to register a user interaction
+    with the buttons and perform the appropriate action. For now, the action
+    could be just to output text to the console.
+
+
+Improve unit's movement tiles and path arrows. (Kevin)
+    Currently, the unit's movement tiles and path arrows are fairly simple in
+    visuals and functionalities. Improve the existing implementation for better
+    visuals, additional details, and optimizing performance where necessary.
+
+    One thing that is lacking in the current implementation is a direction arrow
+    at the unit's destination tile. The arrow will point in the appropriate
+    direction based on the direction of the unit's path.
+
+
 Unit battlefield sprites. (David)
-[COMPLETE]  February 20, 2013
+[COMPLETE]  February 20, 2014
     Currently, we have simple placeholder block images for unit sprites. Add and
     hook up improved sprite images to all currently existing units (hero, ally,
     practice_dummy).
