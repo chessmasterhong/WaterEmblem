@@ -21,6 +21,13 @@ Terrains. (Kevin)
     moveable tile visuals to display the true tiles that the unit can move while
     taking terrain movement cost into account.
 
+Actual GUI Implementation. (David)
+[IN PROGRESS] Last update: February 23, 2014
+    Currently, one small part of the GUI is finished. We can now spawn a button
+    after a player's movement is finished, asking the player to confirm their 
+    movement onto a destination tile. Using this structure, we can now begin
+    to flesh out the other aspects of the GUI to control the gameplay flow.
+
 
 Simple GUI menu prototype. (David)
 [COMPLETE]  February 22, 2014
@@ -28,6 +35,7 @@ Simple GUI menu prototype. (David)
     GUIs in the game. The menu should be able to register a user interaction
     with the buttons and perform the appropriate action. For now, the action
     could be just to output text to the console.
+
 
 
 Improve unit's movement tiles and path arrows. (Kevin)
