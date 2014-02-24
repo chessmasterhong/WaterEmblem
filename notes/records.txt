@@ -3,8 +3,21 @@
 ################################################################################
 
 
-Terrains. (Kevin)
-[IN PROGRESS]  _____
+Camera. (David, Kevin)
+[COMPLETE]  February 24, 2014
+    The current camera system (from the grid-movement plugin) is quite limited
+    in functionality. We want to prevent the game from displaying "black areas"
+    found when camera displays areas beyond the edge of the map and have a more
+    smooth panning screen rather than the previous "screen yanking" effect. We
+    can use the camera plugin from SMW-Koopa-Krisis and configure it for this
+    game.
+
+    Resources:
+        https://bitbucket.org/chessmasterhong/smw-koopa-krisis/raw/1544cd73a48176b32479a476fb01ded630048f7c/lib/plugins/camera/camera.js
+
+
+Terrain movement cost. (Kevin)
+[COMPLETE]  February 23, 2014
     To add strategical elements to the battle system, we want to implement a
     terrain system. Each tile on the battlefield will have a terrain "attached"
     to it. Units will gain bonuses and/or penalties depending on the terrain
@@ -12,7 +25,7 @@ Terrains. (Kevin)
     the unit when attacking or defending against another unit. Likewise, the
     other unit will also be standing on a terrain and will have their respective
     bonuses and/or penalties applied to them during attacking or defending.
-    
+
     Each terrain has their own movement cost and when the unit traverses through
     the terrain, this movement cost will be subtracted from the unit's available
     movement. If the unit does not have enough movement to traverse through the
@@ -21,12 +34,13 @@ Terrains. (Kevin)
     moveable tile visuals to display the true tiles that the unit can move while
     taking terrain movement cost into account.
 
+
 Actual GUI Implementation. (David)
 [IN PROGRESS] Last update: February 23, 2014
     Currently, one small part of the GUI is finished. We can now spawn a button
-    after a player's movement is finished, asking the player to confirm their 
-    movement onto a destination tile. Using this structure, we can now begin
-    to flesh out the other aspects of the GUI to control the gameplay flow.
+    after a player's movement is finished, asking the player to confirm their
+    movement onto a destination tile. Using this structure, we can now begin to
+    flesh out the other aspects of the GUI to control the gameplay flow.
 
 
 Simple GUI menu prototype. (David)
@@ -37,8 +51,8 @@ Simple GUI menu prototype. (David)
     could be just to output text to the console.
 
 
-
 Improve unit's movement tiles and path arrows. (Kevin)
+[COMPLETE]  February 23, 2013
     Currently, the unit's movement tiles and path arrows are fairly simple in
     visuals and functionalities. Improve the existing implementation for better
     visuals, additional details, and optimizing performance where necessary.
@@ -48,7 +62,7 @@ Improve unit's movement tiles and path arrows. (Kevin)
     direction based on the direction of the unit's path.
 
 
-Unit battlefield sprites. (David)
+Initial unit battlefield sprites. (David)
 [COMPLETE]  February 20, 2014
     Currently, we have simple placeholder block images for unit sprites. Add and
     hook up improved sprite images to all currently existing units (hero, ally,
