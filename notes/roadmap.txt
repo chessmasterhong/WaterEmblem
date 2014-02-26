@@ -1,6 +1,6 @@
 ############################################################################
 #                                                                          #
-#                              Developer Tasks Roadmap                     #
+#                         Developer Tasks Roadmap                          #
 #                                                                          #
 ############################################################################
 
@@ -61,18 +61,18 @@
 
   * Has the following features:
 
-    -> Main GUI window for MOVE, ATTACK, ITEM, TRADE, END.
-        -> MOVE: Allows the player to begin movement.
+    -> Main GUI window for MOVE, ATTACK, ITEM, TRADE, END
+
         -> ATTACK: If an enemy unit is adjacent to the player after moving,
            the player can select to attack. Ideally, we want to highlight all
            "attack-able" squares for the player.
         -> ITEM: Allows the player to open up their inventory and use an item.
         -> TRADE: Allows the player to trade with an adjacent player.
-        -> WAIT: After moving, the player clicks this button to confirm.
+        -> WAIT: After moving, the player clicks this button to confirm. [ COMPLETE ]
         -> END: Allows the player to end the PLAYER PHASE prematurely.
             -> This is triggered by clicking any arbitrary square on the map
                to pull up the menu.
-        -> STATS: Pulls up a stat screen to show the players stats.
+        -> STATS: Pulls up a stat screen to show the players stats.       [ COMPLETE ]
 
 
 ##############################################################################
@@ -88,6 +88,8 @@
 ##############################################################################
 #                                  TERRAIN                                   #
 ##############################################################################
+
+[ Prototype COMPLETE ]
 
 * Terrain needs to be factored into stat calculations. The following terrains
   are planned:
@@ -111,6 +113,8 @@
 ##############################################################################
 #                                STAT SYSTEM                                 #
 ##############################################################################
+
+[ Prototype COMPLETED by Kim ]
 
 * The following stat system is proposed:
 
@@ -140,6 +144,55 @@
     -> SPEED:      An integer representing the base speed of the unit. Maximum for all
                    base units is 20. Speed contributes to the percentage of avoiding
                    enemy attacks.
+
+* All we need now is to come up with a formula to compute avoid rates based on LUK and SPD.
+  We'll probably use Fire Emblem's formulas for this.
+
+##############################################################################
+#                                EXPERIENCE SYSTEM                           #
+##############################################################################
+
+
+* The following features need to be included inside of this experience system:
+
+    -> All player units need an experience property to be able to accumulate experience.
+    -> Enemy units should also have a property which holds the amount of experience
+       they give out after being killed.
+
+* Experience system also has the following functionality:
+
+    -> When a player unit attacks an enemy (but doesn't kill them), the player should still
+      gain experience according to a formula (which we don't have right now). For now, we should
+      award the player 1/4th of the experience an enemy would give on death each time they 
+      attack the enemy.
+
+    -> When a player kills an enemy unit, that player gains the experience the enemy has in its 
+       experience property.
+
+    -> When the player gains 100 EXP, they gain a level. Experience wraps around, if a player
+       has 90 EXP and they gain 20 EXP, they now are at level [2] and has 10 EXP. 
+
+* On Level Up, we also need a function that increases the players stats at "random". Here is an 
+  example:
+
+    -> Assume the player has a property called "levelUpPercentage: { STR: 40, MAG: 20, DEF: 20,
+          RES: 20, SPD: 80, LUK: 70 }". This property holds the "probabilities" that a stat will
+          increase by +1 on level up.
+
+    -> Now we write a function that iterates 6 times (one for each stat), and compute a 
+       RAND() function and store the numbers (the rand function has to return a number
+       beween 0 and 100). The function will output a new dictionary which has values such as:
+       {30, 30, 40, 50, 70, 60}.
+
+            -> We now compare our new dictionary {30, 30, 40, 50, 70, 60} to the "levelUpPercentage"
+            dictionary. If the value[i] of the new dictionary is less than levelUpPercentage[i],
+            that means that stat will increase by 1. In this case, the following stat increases 
+            will occur:
+
+            levelUp: { STR: 1, MAG: 0, DEF: 0, RES: 0, SPD: 1, LUK: 1}
+
+            -> Lastly, we add the levelUp dictionary with the dictionary stored inside of the player's
+               stat property. 
 
 
          -----------------------------------------------------------
