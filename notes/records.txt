@@ -3,6 +3,38 @@
 ################################################################################
 
 
+Hook stat system skeleton to game. (Kim)
+[IN PROGRESS]  February 25, 2014
+    See roadmap.txt (section: STAT SYSTEM) for details.
+
+
+Unit movement and attack using mouse cursor. (Kevin)
+[IN PROGRESS]  _____
+    Currently, the game is using a keyboard-based movement and attack system. In
+    order to break from the traditional tile based movements and for the user's
+    ease of point-and-click commands, we would like to implement a method of
+    moving, attacking, and possibly other actions regarding the GUI using the
+    mouse cursor.
+
+    One method of doing so is using an invisible entity that follows the mouse
+    pointer. When the user clicks the mouse button, the entity will check for
+    collisions with a vaild entity. In turn, this will allow the valid entity to
+    register the mouse click and perform its actions, if any.
+
+    Resources:
+        http://impactjs.com/forums/help/how-to-handle-clicking
+        http://impactjs.com/forums/help/i-writed-whether-entity-is-clicked-function-which-need-to-be-improved/page/1
+
+
+Unit stats screen. (David)
+[COMPLETE]  February 24, 2014
+    Extending from the GUI, we want to display a selected unit's stats on a new
+    screen. We want to display the screen when the user presses a button and
+    will remain visible until the user releases the button. In the future, we
+    want the screen to remain visible until the user clicks a button to close
+    (like the escape button).
+
+
 Camera. (David, Kevin)
 [COMPLETE]  February 24, 2014
     The current camera system (from the grid-movement plugin) is quite limited
@@ -69,26 +101,16 @@ Initial unit battlefield sprites. (David)
     practice_dummy).
 
 
-Character development system: level, experience, and statistics. (Kevin)
-[IN PROGRESS]  _____
-    Now that the core battle system is completed (i.e., we can conduct a full
-    combat from beginning to end), we can begin to branch off to various new
-    aspects of the game. One of the features in almost all RPGs is some form of
-    a character development system. A subcomponent of the system is stats. Users
-    should be able to customize their character. Should their character be
-    physically strong? Intelligent? Highly resilient? Quick and nimble? Or maybe
-    a particular mix of stats that suits the user's gameplay style.
+Unit available movement tiles in battle. (Kevin)
+[COMPLETE]  February 07. 2014
+    Implement a method of highlighting a unit's possible movement tiles which
+    indicates which tiles the unit is allowed to move to during the unit's turn.
+    In the future, we will need to prevent highlighting tiles that the unit
+    cannot move to, such as their opposing enemy unit or collision tiles.
 
-    Stats are broken into two major types: base stats and derived stats. Base
-    stats are the most basic stats in which all other stats are derived from.
-    Users can have direct input on how they wish to distribute their character's
-    base stats. As a result, each of the derived stats will increase (or
-    decrease) depending on how much stat points have been invested into each
-    base stat. Stat points are gained only when the character gains a level.
-    Levels are gained when a certain amount of experience is accumulated.
-    Experience is gained from doing stuff in game, ranging from competing
-    quests, attacking/defeating enemies, assisting allies, disarming traps, etc.
 
+Stats system skeleton for character development system. (Kevin)
+[COMPLETE]  February 05, 2014
     A stat system has already been implemented for the SMW-Koopa-Krisis-RPG, but
     only a small part of the system is fully functional in that game. The stat
     system can be reused for this game with deeper complexity and some balancing
@@ -98,35 +120,11 @@ Character development system: level, experience, and statistics. (Kevin)
         https://bitbucket.org/chessmasterhong/smw-koopa-krisis-rpg/raw/b9b06011035118a363324462c7ef2ba96f322636/lib/game/entities/ai/basic_ai.js
 
 
-Unit movement and attack using mouse cursor. (Kevin)
-[ON HOLD]  _____
-    Currently, the game is using a keyboard-based movement and attack system. In
-    order to break from the traditional tile based movements and for the user's
-    ease of point-and-click commands, we would like to implement a method of
-    moving, attacking, and possibly other actions regarding the GUI using the
-    mouse cursor.
-
-    One method of doing so is using an invisible entity that follows the mouse
-    pointer. When the user clicks the mouse button, the entity will check for
-    collisions with a vaild entity. In turn, this will allow the valid entity to
-    register the mouse click and perform its actions, if any.
-
-    Resources:
-        http://impactjs.com/forums/help/how-to-handle-clicking
-        http://impactjs.com/forums/help/i-writed-whether-entity-is-clicked-function-which-need-to-be-improved/page/1
-
-
-Unit available movement tiles in battle. (Kevin)
-[COMPLETE]  February 07. 2014
-    Implement a method of highlighting a unit's possible movement tiles which
-    indicates which tiles the unit is allowed to move to during the unit's turn.
-    In the future, we will need to prevent highlighting tiles that the unit
-    cannot move to, such as their opposing enemy unit or collision tiles.
-
 --------------------------------------------------------------------------------
 Milestone 2: Core battle system functionalities.
 [COMPLETE]  February 03, 2014
 --------------------------------------------------------------------------------
+
 
 Enemy targets closest player party member in battle. (Kevin)
 [COMPLETE]  February 03, 2014
@@ -178,6 +176,7 @@ Enemy pathfinding in battle. (Kevin)
 Milestone 1: Basic nagivation around the game world and basic battle system.
 [COMPLETE]  December 31, 2013
 --------------------------------------------------------------------------------
+
 
 Code refactoring, optimization, and cleanup. (Kevin)
 [COMPLETE]  December 31, 2013
