@@ -3,6 +3,18 @@
 ################################################################################
 
 
+Hook item menu to existing menu system. (Kevin)
+[COMPLETE]  February 27, 2014
+
+
+Unit equip and swap functionality in item menu. (David)
+[COMPLETE]  February 27, 2014
+
+
+Display item menu. (David)
+[COMPLETE]  February 26, 2014
+
+
 Hook stat system skeleton to game. (Kim)
 [IN PROGRESS]  February 25, 2014
     See roadmap.txt (section: STAT SYSTEM) for details.
@@ -18,7 +30,7 @@ Unit movement and attack using mouse cursor. (Kevin)
 
     One method of doing so is using an invisible entity that follows the mouse
     pointer. When the user clicks the mouse button, the entity will check for
-    collisions with a vaild entity. In turn, this will allow the valid entity to
+    collisions with a valid entity. In turn, this will allow the valid entity to
     register the mouse click and perform its actions, if any.
 
     Resources:
@@ -63,7 +75,7 @@ Terrain movement cost. (Kevin)
     movement. If the unit does not have enough movement to traverse through the
     terrain (i.e., unit's movement < terrain movement cost), then the unit is
     unable to move to that terrain. In the future, we wish to have the unit's
-    moveable tile visuals to display the true tiles that the unit can move while
+    movable tile visuals to display the true tiles that the unit can move while
     taking terrain movement cost into account.
 
 
@@ -173,7 +185,7 @@ Enemy pathfinding in battle. (Kevin)
 
 
 --------------------------------------------------------------------------------
-Milestone 1: Basic nagivation around the game world and basic battle system.
+Milestone 1: Basic navigation around the game world and basic battle system.
 [COMPLETE]  December 31, 2013
 --------------------------------------------------------------------------------
 
