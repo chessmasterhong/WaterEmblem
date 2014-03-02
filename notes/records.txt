@@ -3,6 +3,38 @@
 ################################################################################
 
 
+Mouse-based "point-and-click" unit movement. (Kevin)
+[COMPLETE]  February 28, 2014
+    We want to move away from the long-used keyboard-based directional arrow
+    unit movement and begin using mouse-based "point-and-click" unit movement
+    instead. Since the menus are already using the mouse to detect button press,
+    it seems logical to also use the mouse for unit movement.
+
+    The end goal is to use the mouse to drive most (if not all) of the unit
+    actions in the game. The mouse is quicker for the user to perform actions,
+    and provides more flexibility for the user to navigate around contents on
+    the game screen, and is more intuitive from a developer's standpoint since
+    the game engine already supports collisions. In the future, we may consider
+    bringing back keyboard-based actions.
+
+
+Experience and level up system. (Kim)
+[COMPLETE]  February 28, 2014
+    When a player unit defeats an enemy unit, we want the player unit to gain
+    experience points. After the unit gains enough experience points, the unit
+    will advance to the next level. Then the unit will have a chance to gain
+    additional stat points that has been implemented already. The unit will
+    keep gaining experience points and levels until the unit reaches the game
+    level limit of level 20. At that point, the unit will stop gaining
+    experience points and levels.
+
+
+Chance of stat increase during unit level up. (Kim)
+[COMPLETE]  February 28, 2014
+    When a player unit levels up, we want the unit to have a chance to gain 1
+    additional base stat point into each of their base stats.
+
+
 Hook item menu to existing menu system. (Kevin)
 [COMPLETE]  February 27, 2014
 
