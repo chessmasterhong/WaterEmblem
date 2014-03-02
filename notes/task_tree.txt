@@ -1,0 +1,142 @@
+################################################################################
+# Task Requirements and Dependencies                                           #
+################################################################################
+
+
+BATTLE SYSTEM
+=============
+
+Distinguish units as player controllable units or enemy units .................. [COMPLETE]
+ |
+ +-- Control multiple player units ............................................. [COMPLETE]
+ |
+ +-- Cycle active unit between player and enemy units .......................... [COMPLETE]
+      |
+      +-- Entity pathfinding using A* search algorithm ......................... [COMPLETE]
+      |   |
+      |   +-- Grid-based entity pathfinding .................................... [COMPLETE]
+      |        |
+      |        +-- "Point-and-click" movement for player units ................. [COMPLETE]
+      |        |    |
+      |        |    +-- Nearby entity detection ................................ []
+      |        |         |
+      |        |         +-- "Point-and-click" attack for enemy units .......... []
+      |        |         |    |
+      |        |         |    +-- Battle animation system ...................... []
+      |        |         |    |
+      |        |         |    +-- Attack order queue ........................... []
+      |        |         |        |
+      |        |         |        +-- Counterattack ............................ []
+      |        |         |        |
+      |        |         |        +-- Second attack ............................ []
+      |        |         |
+      |        |         +-- "Point-and-click" trade for friendly units ........ []
+      |        |              |
+      |        |              +-- Trade system between two player units ........ []
+      |        |                   |
+      |        |                   +-- Shop system ............................. []
+      |        |
+      |        +-- Terrain detection when unit stands on tile .................. [COMPLETE]
+      |             |
+      |             +-- Terrain movement costs ................................. [COMPLETE]
+      |                  |
+      |                  +-- Pathfinding terrain detection ..................... []
+      |                       |
+      |                       +-- Pathfinding terrain movement costs ........... []
+      |
+      +-- Camera system ........................................................ [COMPLETE]
+           |
+           +-- Focus on main player ............................................ [COMPLETE]
+                |
+                +-- Focus on active unit ....................................... [COMPLETE]
+                     |
+                     +-- Toggle focus between active unit and mouse cursor ..... []
+                          |
+                          +-- Free-panning camera system ....................... []
+
+
+CHARACTER DEVELOPMENT SYSTEM
+============================
+
+Base stats ..................................................................... [COMPLETE]
+ |
+ +-- Derived stats ............................................................. [COMPLETE]
+ |    |
+ |    +-- Modified stats ....................................................... []
+ |    |    |
+ |    |    +-- Weapon stat bonuses/penalties ................................... []
+ |    |    |
+ |    |    +-- Terrain stat bonuses/penalties .................................. []
+ |    |
+ |    +-- Variable damage based on unit's stats ................................ [COMPLETE]
+ |    |
+ |    +-- Hit accuracy based on unit's stats ................................... []
+ |    |
+ |    +-- Critical attacks ..................................................... []
+ |
+ +-- Experience system ......................................................... [COMPLETE]
+ |    |
+ |    +-- Level up system ...................................................... [COMPLETE]
+ |    |    |
+ |    |    +-- Unit class promotion ............................................ []
+ |    |
+ |    +-- Partial experience when target unit is not defeated .................. []
+ |    |
+ |    +-- Experience gain for friendly assistance .............................. []
+ |
+ +-- Stat increase chance ...................................................... [COMPLETE]
+
+
+ITEM SYSTEM
+===========
+
+Read and parse JSON file ....................................................... []
+ |
+ +-- Populate JSON with sample items ........................................... []
+      |
+      +-- Inventory system ..................................................... []
+      |    |
+      |    +-- Equipment system ................................................ []
+      |    |    |
+      |    |    +-- Weapon versus weapon advantage/disadvantage ................ []
+      |    |    |
+      |    |    +-- Weapon durability and breaking ............................. []
+      |    |
+      |    +-- Consumable items ................................................ []
+      |    |
+      |    +-- Item quantity and stacking ...................................... []
+      |    |
+      |    +-- Inventory check for valid item .................................. []
+      |
+      +-- Enemy item drops ..................................................... []
+
+
+GRAPHICAL USER INTERFACE
+========================
+
+Draw menu to game screen ....................................................... [COMPLETE]
+ |
+ +-- Stats screen .............................................................. [COMPLETE]
+ |
+ +-- Draw interactable buttons ................................................. [COMPLETE]
+      |
+      +-- Wait button and functionality ........................................ [COMPLETE]
+      |
+      +-- Attack button ........................................................ []
+      |    |
+      |    +-- Enemy stats mini-screen ......................................... []
+      |
+      +-- Item/Inventory menu .................................................. [COMPLETE]
+      |    |
+      |    +-- Equip weapon button and functionality ........................... [COMPLETE]
+      |    |
+      |    +-- Use item button and functionality ............................... []
+      |    |
+      |    +-- Equipment stats mini-screen ..................................... []
+      |
+      +-- Trade menu ........................................................... []
+      |    |
+      |    +-- Trade button and functionality .................................. []
+      |
+      +-- End turn button and functionality .................................... [COMPLETE]
+
