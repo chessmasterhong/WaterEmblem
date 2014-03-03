@@ -54,6 +54,12 @@ Mouse-based "point-and-click" unit movement. (Kevin)
     bringing back keyboard-based actions.
 
 
+--------------------------------------------------------------------------------
+Milestone 4: Character development system.
+[COMPLETE]  February 28, 2014
+--------------------------------------------------------------------------------
+
+
 Experience and level up system. (Kim)
 [COMPLETE]  February 28, 2014
     When a player unit defeats an enemy unit, we want the player unit to gain
@@ -86,24 +92,6 @@ Display item menu. (David)
 Hook stat system skeleton to game. (Kim)
 [IN PROGRESS]  February 25, 2014
     See roadmap.txt (section: STAT SYSTEM) for details.
-
-
-Unit movement and attack using mouse cursor. (Kevin)
-[IN PROGRESS]  _____
-    Currently, the game is using a keyboard-based movement and attack system. In
-    order to break from the traditional tile based movements and for the user's
-    ease of point-and-click commands, we would like to implement a method of
-    moving, attacking, and possibly other actions regarding the GUI using the
-    mouse cursor.
-
-    One method of doing so is using an invisible entity that follows the mouse
-    pointer. When the user clicks the mouse button, the entity will check for
-    collisions with a valid entity. In turn, this will allow the valid entity to
-    register the mouse click and perform its actions, if any.
-
-    Resources:
-        http://impactjs.com/forums/help/how-to-handle-clicking
-        http://impactjs.com/forums/help/i-writed-whether-entity-is-clicked-function-which-need-to-be-improved/page/1
 
 
 Unit stats screen. (David)
@@ -147,6 +135,12 @@ Terrain movement cost. (Kevin)
     taking terrain movement cost into account.
 
 
+--------------------------------------------------------------------------------
+Milestone 3: Interactive graphical user interface.
+[COMPLETE]  February 23, 2014
+--------------------------------------------------------------------------------
+
+
 Actual GUI Implementation. (David)
 [IN PROGRESS]  February 23, 2014
     Currently, one small part of the GUI is finished. We can now spawn a button
@@ -179,6 +173,24 @@ Initial unit battlefield sprites. (David)
     Currently, we have simple placeholder block images for unit sprites. Add and
     hook up improved sprite images to all currently existing units (hero, ally,
     practice_dummy).
+
+
+Mouse cursor interaction. (Kevin)
+[COMPLETE]  February 07, 2014
+    Currently, the game is using a keyboard-based movement and attack system. In
+    order to break from the traditional tile based movements and for the user's
+    ease of point-and-click commands, we would like to implement a method of
+    moving, attacking, and possibly other actions regarding the GUI using the
+    mouse cursor.
+
+    One method of doing so is using an invisible entity that follows the mouse
+    pointer. When the user clicks the mouse button, the entity will check for
+    collisions with a valid entity. In turn, this will allow the valid entity to
+    register the mouse click and perform its actions, if any.
+
+    Resources:
+        http://impactjs.com/forums/help/how-to-handle-clicking
+        http://impactjs.com/forums/help/i-writed-whether-entity-is-clicked-function-which-need-to-be-improved/page/1
 
 
 Unit available movement tiles in battle. (Kevin)
