@@ -144,13 +144,13 @@ Draw menu to game screen .......................................................
  |    |
  |    +-- End turn button  ..................................................... [COMPLETE]
  |
- +-- Unit stats quick-summary .................................................. [IN PROGRESS]
+ +-- Unit stats quick-summary before attack .................................... [IN PROGRESS]
  |
- +-- Terrain quick-summary ..................................................... [IN PROGRESS]
+ +-- Terrain quick-summary ..................................................... [COMPLETE]
  |
  +-- Weapon quick-summary ...................................................... [IN PROGRESS]
  |
- +-- Unit HP quick-summary ..................................................... [IN PROGRESS]
+ +-- Unit HP quick-summary ..................................................... [COMPLETE]
  |
  +-- Battle animation screen/overlay ........................................... [IN PROGRESS]
  |
