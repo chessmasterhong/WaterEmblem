@@ -3,6 +3,42 @@
 ################################################################################
 
 
+Unit detection on mouse cusror hover. (Kevin)
+[COMPLETE]  March 02, 2014
+
+
+Terrain detection on mouse cursor hover. (Kevin)
+[COMPLETE]  March 02, 2014
+
+
+Trade system between two player units. (David)
+[???]  March 02, 2014
+
+
+Attack and trade button in menu. (David)
+[COMPLETE]  March 02, 2014
+
+
+Characer modal for player units. (David)
+[COMPLETE]  March 02, 2014
+
+
+Character portraits for player units. (David)
+[COMPLETE]  March 02, 2014
+
+
+Battle scene overlay for GUI. (David)
+[COMPLETE]  March 02, 2014
+
+
+Weapon summary, HP bar, terrain, battle summary modals for GUI. (David)
+[COMPLETE]  March 02, 2014
+
+
+Real unit stats and level up growth for player units. (David)
+[COMPLETE]  March 01, 2014
+
+
 Mouse-based "point-and-click" unit movement. (Kevin)
 [COMPLETE]  February 28, 2014
     We want to move away from the long-used keyboard-based directional arrow
@@ -112,7 +148,7 @@ Terrain movement cost. (Kevin)
 
 
 Actual GUI Implementation. (David)
-[IN PROGRESS] Last update: February 23, 2014
+[IN PROGRESS]  February 23, 2014
     Currently, one small part of the GUI is finished. We can now spawn a button
     after a player's movement is finished, asking the player to confirm their
     movement onto a destination tile. Using this structure, we can now begin to

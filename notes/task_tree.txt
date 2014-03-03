@@ -18,7 +18,7 @@ Distinguish units as player controllable units or enemy units ..................
       |        |
       |        +-- "Point-and-click" movement for player units ................. [COMPLETE]
       |        |    |
-      |        |    +-- Nearby entity detection ................................ []
+      |        |    +-- Nearby entity detection ................................ [IN PROGRESS]
       |        |         |
       |        |         +-- "Point-and-click" attack for enemy units .......... []
       |        |         |    |
@@ -40,7 +40,7 @@ Distinguish units as player controllable units or enemy units ..................
       |             |
       |             +-- Terrain movement costs ................................. [COMPLETE]
       |                  |
-      |                  +-- Pathfinding terrain detection ..................... []
+      |                  +-- Pathfinding terrain detection ..................... [IN PROGRESS]
       |                       |
       |                       +-- Pathfinding terrain movement costs ........... []
       |
@@ -50,7 +50,7 @@ Distinguish units as player controllable units or enemy units ..................
                 |
                 +-- Focus on active unit ....................................... [COMPLETE]
                      |
-                     +-- Toggle focus between active unit and mouse cursor ..... []
+                     +-- Toggle focus between active unit and mouse cursor ..... [IN PROGRESS]
                           |
                           +-- Free-panning camera system ....................... []
 
@@ -79,18 +79,22 @@ Base stats .....................................................................
  |    +-- Level up system ...................................................... [COMPLETE]
  |    |    |
  |    |    +-- Unit class promotion ............................................ []
+ |    |    |
+ |    |    +-- Experience bonus/penalty based on level .....,,,,,............... []
  |    |
- |    +-- Partial experience when target unit is not defeated .................. []
+ |    +-- Partial experience gain when target unit is not defeated ............. []
  |    |
  |    +-- Experience gain for friendly assistance .............................. []
  |
  +-- Stat increase chance ...................................................... [COMPLETE]
+      |
+      +-- Character stat growth ................................................ [COMPLETE]
 
 
 ITEM SYSTEM
 ===========
 
-Read and parse JSON file ....................................................... []
+Read and parse JSON file ....................................................... [IN PROGRESS]
  |
  +-- Populate JSON with sample items ........................................... []
       |
@@ -119,24 +123,38 @@ Draw menu to game screen .......................................................
  +-- Stats screen .............................................................. [COMPLETE]
  |
  +-- Draw interactable buttons ................................................. [COMPLETE]
-      |
-      +-- Wait button and functionality ........................................ [COMPLETE]
-      |
-      +-- Attack button ........................................................ []
-      |    |
-      |    +-- Enemy stats mini-screen ......................................... []
-      |
-      +-- Item/Inventory menu .................................................. [COMPLETE]
-      |    |
-      |    +-- Equip weapon button and functionality ........................... [COMPLETE]
-      |    |
-      |    +-- Use item button and functionality ............................... []
-      |    |
-      |    +-- Equipment stats mini-screen ..................................... []
-      |
-      +-- Trade menu ........................................................... []
-      |    |
-      |    +-- Trade button and functionality .................................. []
-      |
-      +-- End turn button and functionality .................................... [COMPLETE]
+ |    |
+ |    +-- Wait button .......................................................... [COMPLETE]
+ |    |
+ |    +-- Attack button ........................................................ [COMPLETE]
+ |    |    |
+ |    |    +-- Enemy stats mini-screen ......................................... [IN PROGRESS]
+ |    |
+ |    +-- Item/Inventory menu .................................................. [COMPLETE]
+ |    |    |
+ |    |    +-- Equip weapon button ............................................. [COMPLETE]
+ |    |    |
+ |    |    +-- Use item button ................................................. []
+ |    |    |
+ |    |    +-- Equipment stats mini-screen ..................................... []
+ |    |
+ |    +-- Trade button ......................................................... [COMPLETE]
+ |    |    |
+ |    |    +-- Trade menu  ..................................................... []
+ |    |
+ |    +-- End turn button  ..................................................... [COMPLETE]
+ |
+ +-- Unit stats quick-summary .................................................. [IN PROGRESS]
+ |
+ +-- Terrain quick-summary ..................................................... [IN PROGRESS]
+ |
+ +-- Weapon quick-summary ...................................................... [IN PROGRESS]
+ |
+ +-- Unit HP quick-summary ..................................................... [IN PROGRESS]
+ |
+ +-- Battle animation screen/overlay ........................................... [IN PROGRESS]
+ |
+ +-- Character portraits ....................................................... [COMPLETE]
+ |
+ +-- Character modals .......................................................... [COMPLETE]
 
