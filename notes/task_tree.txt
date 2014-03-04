@@ -94,13 +94,13 @@ Base stats .....................................................................
 ITEM SYSTEM
 ===========
 
-Read and parse JSON file ....................................................... [IN PROGRESS]
+Read and parse item catalog .................................................... [COMPLETE]
  |
- +-- Populate JSON with sample items ........................................... []
+ +-- Populate item catalog with sample items ................................... [COMPLETE]
       |
-      +-- Inventory system ..................................................... []
+      +-- Inventory system ..................................................... [COMPLETE]
       |    |
-      |    +-- Equipment system ................................................ []
+      |    +-- Equipment system ................................................ [IN PROGRESS]
       |    |    |
       |    |    +-- Weapon versus weapon advantage/disadvantage ................ []
       |    |    |

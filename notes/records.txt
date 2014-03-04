@@ -3,6 +3,10 @@
 ################################################################################
 
 
+Item system prototype. (David)
+[COMPLETE]  March 03, 2014
+
+
 Unit detection on mouse cusror hover. (Kevin)
 [COMPLETE]  March 02, 2014
 
@@ -12,7 +16,7 @@ Terrain detection on mouse cursor hover. (Kevin)
 
 
 Trade system between two player units. (David)
-[???]  March 02, 2014
+[_____]  March 02, 2014
 
 
 Attack and trade button in menu. (David)
