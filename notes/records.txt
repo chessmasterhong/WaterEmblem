@@ -3,7 +3,11 @@
 ################################################################################
 
 
-Nearby entity detection prototype. (Kevin)
+Non-collision-based enemy detection. (Kevin)
+[COMPLETE]  March 04, 2014
+
+
+Nearby entity detection. (Kevin)
 [COMPLETE]  March 03, 2014
 
 
