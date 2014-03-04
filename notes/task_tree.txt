@@ -18,9 +18,9 @@ Distinguish units as player controllable units or enemy units ..................
       |        |
       |        +-- "Point-and-click" movement for player units ................. [COMPLETE]
       |        |    |
-      |        |    +-- Nearby entity detection ................................ [IN PROGRESS]
+      |        |    +-- Nearby entity detection ................................ [COMPLETE]
       |        |         |
-      |        |         +-- "Point-and-click" attack for enemy units .......... []
+      |        |         +-- "Point-and-click" attack for enemy units .......... [IN PROGRESS]
       |        |         |    |
       |        |         |    +-- Battle animation system ...................... []
       |        |         |    |

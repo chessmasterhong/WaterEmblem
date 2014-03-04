@@ -3,7 +3,11 @@
 ################################################################################
 
 
-Item system prototype. (David)
+Nearby entity detection prototype. (Kevin)
+[COMPLETE]  March 03, 2014
+
+
+Item system prototype via catalog. (David)
 [COMPLETE]  March 03, 2014
 
 
