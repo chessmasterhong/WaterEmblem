@@ -20,15 +20,19 @@ Distinguish units as player controllable units or enemy units ..................
       |        |    |
       |        |    +-- Nearby entity detection ................................ [COMPLETE]
       |        |         |
-      |        |         +-- "Point-and-click" attack for enemy units .......... [IN PROGRESS]
+      |        |         +-- "Point-and-click" attack for enemy units .......... [COMPLETE]
       |        |         |    |
-      |        |         |    +-- Battle animation system ...................... []
+      |        |         |    +-- Battle animation system ...................... [IN PROGRESS]
       |        |         |    |
       |        |         |    +-- Attack order queue ........................... []
       |        |         |        |
       |        |         |        +-- Counterattack ............................ []
       |        |         |        |
       |        |         |        +-- Second attack ............................ []
+      |        |         |
+      |        |         +-- "Point-and-click" assist for friendly units ....... []
+      |        |         |    |
+      |        |         |    +-- Heal/Item assist friendly units .............. []
       |        |         |
       |        |         +-- "Point-and-click" trade for friendly units ........ []
       |        |              |
@@ -50,9 +54,9 @@ Distinguish units as player controllable units or enemy units ..................
                 |
                 +-- Focus on active unit ....................................... [COMPLETE]
                      |
-                     +-- Toggle focus between active unit and mouse cursor ..... [IN PROGRESS]
+                     +-- Toggle focus between active unit and mouse cursor ..... [COMPLETE]
                           |
-                          +-- Free-panning camera system ....................... []
+                          +-- Free-panning camera system ....................... [COMPLETE]
 
 
 CHARACTER DEVELOPMENT SYSTEM
@@ -113,6 +117,8 @@ Read and parse item catalog ....................................................
       |    +-- Inventory check for valid item .................................. []
       |
       +-- Enemy item drops ..................................................... []
+      |
+      +-- Items with special/unique effects .................................... []
 
 
 GRAPHICAL USER INTERFACE
@@ -142,6 +148,10 @@ Draw menu to game screen .......................................................
  |    |    |
  |    |    +-- Trade menu  ..................................................... []
  |    |
+ |    +-- Shop button .......................................................... []
+ |    |    |
+ |    |    +-- Shop menu ....................................................... []
+ |    |
  |    +-- End turn button  ..................................................... [COMPLETE]
  |
  +-- Unit stats quick-summary before attack .................................... [IN PROGRESS]
@@ -152,7 +162,7 @@ Draw menu to game screen .......................................................
  |
  +-- Unit HP quick-summary ..................................................... [COMPLETE]
  |
- +-- Battle animation screen/overlay ........................................... [IN PROGRESS]
+ +-- Battle animation screen/overlay ........................................... [COMPLETE]
  |
  +-- Character portraits ....................................................... [COMPLETE]
  |
