@@ -3,8 +3,31 @@
 ################################################################################
 
 
+Hook battle animation overlay to battle system. (Kevin)
+[COMPLETE]  March 04, 2014
+
+
+Initial "fancy" unit attack animation for battle animation overlay. (David)
+[COMPLETE]  March 04, 2014
+
+
 Non-collision-based enemy detection. (Kevin)
 [COMPLETE]  March 04, 2014
+
+
+Toggle camera between "free-panning" and unit-focus states. (Kim)
+[COMPLETE]  March 04, 2014
+    Currently, the camera auto-focuses on the active unit. We want to add
+    functionality to the camera to toggle between the active unit ("unit-focus"
+    state) and the mouse cursor ("free-panning" state).
+
+    Unit-focus state will primarity be used when the user is performing actions
+    on the current selected unit. We do not want the camera to be panning around
+    the map while the user wants to click on menus or another unit.
+
+    Free-panning state will mainly be used when no unit is selected. By doing
+    so, the user can easily pan around the map and select another unit that may
+    not normally be visible on the game screen while in unit-focus state.
 
 
 Nearby entity detection. (Kevin)
