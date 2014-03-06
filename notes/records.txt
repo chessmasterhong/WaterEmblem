@@ -3,6 +3,18 @@
 ################################################################################
 
 
+Unit second attack. (Kevin)
+[COMPLETE]  March 05, 2014
+
+
+Unit counterattack. (Kevin)
+[COMPLETE]  March 05, 2014
+
+
+Full battle animation sequence and transition. (Kevin)
+[COMPLETE]  March 05, 2014
+
+
 Hooked "fancy" unit attack animation to battle animation overlay. (Kevin)
 [COMPLETE]  March 04, 2014
 
