@@ -3,12 +3,44 @@
 ################################################################################
 
 
+Hooked non-collision unit attack damage to units' battle animations. (Kevin)
+[COMPLETE]  March 05, 2014
+
+
+Unit second attack. (Kevin)
+[COMPLETE]  March 05, 2014
+
+
+Unit counterattack. (Kevin)
+[COMPLETE]  March 05, 2014
+
+
+--------------------------------------------------------------------------------
+Milestone 6: Battle animation sequence between two units.
+[COMPLETE]  March 05, 2014
+--------------------------------------------------------------------------------
+
+
+Full battle animation sequence and transition. (Kevin)
+[COMPLETE]  March 05, 2014
+
+
+Hooked "fancy" unit attack animation to battle animation overlay. (Kevin)
+[COMPLETE]  March 04, 2014
+
+
 Hook battle animation overlay to battle system. (Kevin)
 [COMPLETE]  March 04, 2014
 
 
 Initial "fancy" unit attack animation for battle animation overlay. (David)
 [COMPLETE]  March 04, 2014
+
+
+--------------------------------------------------------------------------------
+Milestone 5: Non-collision-based nearby entity detection.
+[COMPLETE]  March 04, 2014
+--------------------------------------------------------------------------------
 
 
 Non-collision-based enemy detection. (Kevin)
@@ -193,7 +225,7 @@ Simple GUI menu prototype. (David)
 
 
 Improve unit's movement tiles and path arrows. (Kevin)
-[COMPLETE]  February 23, 2013
+[COMPLETE]  February 22, 2013
     Currently, the unit's movement tiles and path arrows are fairly simple in
     visuals and functionalities. Improve the existing implementation for better
     visuals, additional details, and optimizing performance where necessary.
@@ -201,6 +233,12 @@ Improve unit's movement tiles and path arrows. (Kevin)
     One thing that is lacking in the current implementation is a direction arrow
     at the unit's destination tile. The arrow will point in the appropriate
     direction based on the direction of the unit's path.
+
+
+--------------------------------------------------------------------------------
+Game Dev begins.
+February 21, 2014
+--------------------------------------------------------------------------------
 
 
 Initial unit battlefield sprites. (David)
