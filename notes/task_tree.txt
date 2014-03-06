@@ -22,11 +22,11 @@ Distinguish units as player controllable units or enemy units ..................
       |        |         |
       |        |         +-- "Point-and-click" attack for enemy units .......... [COMPLETE]
       |        |         |    |
-      |        |         |    +-- Battle animation system ...................... [IN PROGRESS]
+      |        |         |    +-- Battle animation system ...................... [COMPLETE]
       |        |         |    |
-      |        |         |    +-- Attack order queue ........................... []
+      |        |         |    +-- Attack order queue ........................... [IN PROGRESS]
       |        |         |        |
-      |        |         |        +-- Counterattack ............................ []
+      |        |         |        +-- Counterattack ............................ [IN PROGRESS]
       |        |         |        |
       |        |         |        +-- Second attack ............................ []
       |        |         |
@@ -66,17 +66,17 @@ Base stats .....................................................................
  |
  +-- Derived stats ............................................................. [COMPLETE]
  |    |
- |    +-- Modified stats ....................................................... []
+ |    +-- Modified stats ....................................................... [IN PROGRESS]
  |    |    |
- |    |    +-- Weapon stat bonuses/penalties ................................... []
+ |    |    +-- Weapon stat bonuses/penalties ................................... [IN PROGRESS]
  |    |    |
  |    |    +-- Terrain stat bonuses/penalties .................................. []
  |    |
  |    +-- Variable damage based on unit's stats ................................ [COMPLETE]
  |    |
- |    +-- Hit accuracy based on unit's stats ................................... []
+ |    +-- Hit accuracy based on unit's stats ................................... [IN PROGRESS]
  |    |
- |    +-- Critical attacks ..................................................... []
+ |    +-- Critical attacks ..................................................... [IN PROGRESS]
  |
  +-- Experience system ......................................................... [COMPLETE]
  |    |
@@ -106,7 +106,7 @@ Read and parse item catalog ....................................................
       |    |
       |    +-- Equipment system ................................................ [IN PROGRESS]
       |    |    |
-      |    |    +-- Weapon versus weapon advantage/disadvantage ................ []
+      |    |    +-- Weapon versus weapon advantage/disadvantage ................ [IN PROGRESS]
       |    |    |
       |    |    +-- Weapon durability and breaking ............................. []
       |    |
@@ -116,7 +116,7 @@ Read and parse item catalog ....................................................
       |    |
       |    +-- Inventory check for valid item .................................. []
       |
-      +-- Enemy item drops ..................................................... []
+      +-- Enemy item drops ..................................................... [???]
       |
       +-- Items with special/unique effects .................................... []
 
