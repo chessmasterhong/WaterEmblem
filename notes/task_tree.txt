@@ -24,11 +24,11 @@ Distinguish units as player controllable units or enemy units ..................
       |        |         |    |
       |        |         |    +-- Battle animation system ...................... [COMPLETE]
       |        |         |    |
-      |        |         |    +-- Attack order queue ........................... [IN PROGRESS]
+      |        |         |    +-- Attack order queue ........................... [COMPLETE]
       |        |         |        |
-      |        |         |        +-- Counterattack ............................ [IN PROGRESS]
+      |        |         |        +-- Counterattack ............................ [COMPLETE]
       |        |         |        |
-      |        |         |        +-- Second attack ............................ []
+      |        |         |        +-- Second attack ............................ [COMPLETE]
       |        |         |
       |        |         +-- "Point-and-click" assist for friendly units ....... []
       |        |         |    |
