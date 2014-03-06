@@ -3,6 +3,10 @@
 ################################################################################
 
 
+Hooked "fancy" unit attack animation to battle animation overlay. (Kevin)
+[COMPLETE]  March 04, 2014
+
+
 Hook battle animation overlay to battle system. (Kevin)
 [COMPLETE]  March 04, 2014
 
