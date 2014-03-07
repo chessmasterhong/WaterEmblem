@@ -66,9 +66,9 @@ Base stats .....................................................................
  |
  +-- Derived stats ............................................................. [COMPLETE]
  |    |
- |    +-- Modified stats ....................................................... [IN PROGRESS]
+ |    +-- Modified stats ....................................................... [COMPLETE]
  |    |    |
- |    |    +-- Weapon stat bonuses/penalties ................................... [IN PROGRESS]
+ |    |    +-- Weapon stat bonuses/penalties ................................... [COMPLETE]
  |    |    |
  |    |    +-- Terrain stat bonuses/penalties .................................. []
  |    |
@@ -104,7 +104,7 @@ Read and parse item catalog ....................................................
       |
       +-- Inventory system ..................................................... [COMPLETE]
       |    |
-      |    +-- Equipment system ................................................ [IN PROGRESS]
+      |    +-- Equipment system ................................................ [COMPLETE]
       |    |    |
       |    |    +-- Weapon versus weapon advantage/disadvantage ................ [IN PROGRESS]
       |    |    |
@@ -134,7 +134,7 @@ Draw menu to game screen .......................................................
  |    |
  |    +-- Attack button ........................................................ [COMPLETE]
  |    |    |
- |    |    +-- Enemy stats mini-screen ......................................... [IN PROGRESS]
+ |    |    +-- Unit stats quick-summary before attack .......................... [IN PROGRESS]
  |    |
  |    +-- Item/Inventory menu .................................................. [COMPLETE]
  |    |    |
@@ -154,11 +154,9 @@ Draw menu to game screen .......................................................
  |    |
  |    +-- End turn button  ..................................................... [COMPLETE]
  |
- +-- Unit stats quick-summary before attack .................................... [IN PROGRESS]
- |
  +-- Terrain quick-summary ..................................................... [COMPLETE]
  |
- +-- Weapon quick-summary ...................................................... [IN PROGRESS]
+ +-- Weapon quick-summary ...................................................... [COMPLETE]
  |
  +-- Unit HP quick-summary ..................................................... [COMPLETE]
  |

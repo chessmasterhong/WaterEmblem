@@ -3,6 +3,14 @@
 ################################################################################
 
 
+Improved equipment system with modified stats. (David)
+[COMPLETE]  March 06, 2014
+
+
+Derived stats calculations. (David)
+[COMPLETE]  March 05, 2014
+
+
 Hooked non-collision unit attack damage to units' battle animations. (Kevin)
 [COMPLETE]  March 05, 2014
 
