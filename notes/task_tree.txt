@@ -30,13 +30,13 @@ Distinguish units as player controllable units or enemy units ..................
       |        |         |        |
       |        |         |        +-- Second attack ............................ [COMPLETE]
       |        |         |
-      |        |         +-- "Point-and-click" assist for friendly units ....... []
+      |        |         +-- "Point-and-click" assist for friendly units ....... [COMPLETE]
       |        |         |    |
       |        |         |    +-- Heal/Item assist friendly units .............. []
       |        |         |
-      |        |         +-- "Point-and-click" trade for friendly units ........ []
+      |        |         +-- "Point-and-click" trade for friendly units ........ [COMPLETE]
       |        |              |
-      |        |              +-- Trade system between two player units ........ []
+      |        |              +-- Trade system between two player units ........ [IN PROGRESS]
       |        |                   |
       |        |                   +-- Shop system ............................. []
       |        |

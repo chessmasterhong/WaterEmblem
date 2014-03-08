@@ -3,6 +3,14 @@
 ################################################################################
 
 
+Non-collision unit assist and trade framework for friendly player units. (Kevin)
+[COMPLETE]  March 08, 2014
+
+
+Non-collision-based enemy detection. (Kevin)
+[COMPLETE]  March 08, 2014
+
+
 Code debug, refactor, optimization, and cleanup for AI, stats, and inventory. (Kevin)
 [COMPLETE]  March 08, 2014
 
@@ -249,7 +257,7 @@ Simple GUI menu prototype. (David)
 
 
 Improve unit's movement tiles and path arrows. (Kevin)
-[COMPLETE]  February 22, 2013
+[COMPLETE]  February 22, 2014
     Currently, the unit's movement tiles and path arrows are fairly simple in
     visuals and functionalities. Improve the existing implementation for better
     visuals, additional details, and optimizing performance where necessary.
