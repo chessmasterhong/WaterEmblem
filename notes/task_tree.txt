@@ -74,9 +74,9 @@ Base stats .....................................................................
  |    |
  |    +-- Variable damage based on unit's stats ................................ [COMPLETE]
  |    |
- |    +-- Hit accuracy based on unit's stats ................................... [IN PROGRESS]
+ |    +-- Hit accuracy based on unit's stats ................................... [COMPLETE]
  |    |
- |    +-- Critical attacks ..................................................... [IN PROGRESS]
+ |    +-- Critical attacks ..................................................... [COMPLETE]
  |
  +-- Experience system ......................................................... [COMPLETE]
  |    |
