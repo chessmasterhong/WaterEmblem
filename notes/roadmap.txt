@@ -273,8 +273,10 @@
 ADDITIONAL IDEAS (may or may or may not be implemented)
 
 * Fog of war
-
-
-
-
+* Game settings and configuration
+* Map scripts
+* Dialogue (simple tutorial)
+* Improved enemy AI
+    - Weapon swapping before battle
+    - Flee (run away from attacker)
 

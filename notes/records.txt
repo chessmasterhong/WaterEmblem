@@ -3,6 +3,22 @@
 ################################################################################
 
 
+Code debug, refactor, optimization, and cleanup for AI, stats, and inventory. (Kevin)
+[COMPLETE]  March 08, 2014
+
+
+Hooked normal hit, evade, and critical hit computations to battle animation. (Kevin)
+[COMPLETE]  March 08, 2014
+
+
+Tint unit sprites for enemies. (Kim)
+[COMPLETE]  March 07, 2014
+
+
+Hook battle summary modal with stats during enemy selection. (David)
+[COMPLETE]  March 07, 2014
+
+
 Improved equipment system with modified stats. (David)
 [COMPLETE]  March 06, 2014
 
