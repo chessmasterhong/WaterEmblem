@@ -70,7 +70,7 @@ Base stats .....................................................................
  |    |    |
  |    |    +-- Weapon stat bonuses/penalties ................................... [COMPLETE]
  |    |    |
- |    |    +-- Terrain stat bonuses/penalties .................................. []
+ |    |    +-- Terrain stat bonuses/penalties .................................. [COMPLETE]
  |    |
  |    +-- Variable damage based on unit's stats ................................ [COMPLETE]
  |    |
@@ -84,9 +84,9 @@ Base stats .....................................................................
  |    |    |
  |    |    +-- Unit class promotion ............................................ []
  |    |    |
- |    |    +-- Experience bonus/penalty based on level .....,,,,,............... []
+ |    |    +-- Experience bonus/penalty based on level ......................... [IN PROGRESS]
  |    |
- |    +-- Partial experience gain when target unit is not defeated ............. []
+ |    +-- Partial experience gain when target unit is not defeated ............. [IN PROGRESS]
  |    |
  |    +-- Experience gain for friendly assistance .............................. []
  |
@@ -134,7 +134,7 @@ Draw menu to game screen .......................................................
  |    |
  |    +-- Attack button ........................................................ [COMPLETE]
  |    |    |
- |    |    +-- Unit stats quick-summary before attack .......................... [IN PROGRESS]
+ |    |    +-- Unit stats quick-summary before attack .......................... [COMPLETE]
  |    |
  |    +-- Item/Inventory menu .................................................. [COMPLETE]
  |    |    |
@@ -142,7 +142,7 @@ Draw menu to game screen .......................................................
  |    |    |
  |    |    +-- Use item button ................................................. []
  |    |    |
- |    |    +-- Equipment stats mini-screen ..................................... []
+ |    |    +-- Equipment stats mini-screen ..................................... [COMPLETE]
  |    |
  |    +-- Trade button ......................................................... [COMPLETE]
  |    |    |
