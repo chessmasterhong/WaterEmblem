@@ -36,7 +36,7 @@ Distinguish units as player controllable units or enemy units ..................
       |        |         |
       |        |         +-- "Point-and-click" trade for friendly units ........ [COMPLETE]
       |        |              |
-      |        |              +-- Trade system between two player units ........ [IN PROGRESS]
+      |        |              +-- Trade system between two player units ........ [COMPLETE]
       |        |                   |
       |        |                   +-- Shop system ............................. []
       |        |
@@ -146,7 +146,7 @@ Draw menu to game screen .......................................................
  |    |
  |    +-- Trade button ......................................................... [COMPLETE]
  |    |    |
- |    |    +-- Trade menu  ..................................................... []
+ |    |    +-- Trade menu  ..................................................... [COMPLETE]
  |    |
  |    +-- Shop button .......................................................... []
  |    |    |
