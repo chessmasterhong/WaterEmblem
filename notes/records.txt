@@ -3,6 +3,14 @@
 ################################################################################
 
 
+Trade items between two friendly player units. (Kevin)
+[COMPLETE]  March 09, 2014
+
+
+Unit character sprites refactoring. (David)
+[COMPLETE]  March 08, 2014
+
+
 Non-collision unit assist and trade framework for friendly player units. (Kevin)
 [COMPLETE]  March 08, 2014
 
