@@ -3,6 +3,32 @@
 ################################################################################
 
 
+--------------------------------------------------------------------------------
+Student/Faculty Mixer.
+March 27, 2014
+--------------------------------------------------------------------------------
+
+
+Hooked battle animation background based on active unit terrain. (Kevin)
+[COMPLETE]  March 11, 2014
+
+
+Hooked battle animation attack effects on unit strike. (Kevin)
+[COMPLETE]  March 11, 2014
+
+
+Code refactoring, optimization, and cleanup. (Kevin)
+[IN PROGRESS] _____
+
+
+GUI polishing and enhancements. (David, Kevin)
+[IN PROGRESS]  _____
+
+
+Button and menu design. (David)
+[COMPLETE]  March 10, 2014
+
+
 Trade items between two friendly player units. (Kevin)
 [COMPLETE]  March 09, 2014
 
