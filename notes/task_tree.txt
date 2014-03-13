@@ -108,7 +108,7 @@ Read and parse item catalog ....................................................
       |    |    |
       |    |    +-- Weapon versus weapon advantage/disadvantage ................ [IN PROGRESS]
       |    |    |
-      |    |    +-- Weapon durability and breaking ............................. []
+      |    |    +-- Weapon durability and breaking ............................. [COMPLETE]
       |    |
       |    +-- Consumable items ................................................ [COMPLETE]
       |    |
