@@ -112,7 +112,7 @@ Read and parse item catalog ....................................................
       |    |
       |    +-- Consumable items ................................................ [COMPLETE]
       |    |
-      |    +-- Item quantity and stacking ...................................... []
+      |    +-- Item quantity and usage ......................................... [COMPLETE]
       |    |
       |    +-- Inventory check for valid item .................................. []
       |
