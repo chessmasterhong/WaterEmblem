@@ -9,11 +9,27 @@ March 27, 2014
 --------------------------------------------------------------------------------
 
 
+Items with special effects. (David, Kevin)
+[COMPLETE]  March 12, 2014
+
+
+Use items framework. (David)
+[COMPLETE]  March 12, 2014
+
+
+Heal friendly units. (David)
+[COMPLETE]  March 12, 2014
+
+
 Hooked battle animation background based on active unit terrain. (Kevin)
 [COMPLETE]  March 11, 2014
 
 
 Hooked battle animation attack effects on unit strike. (Kevin)
+[COMPLETE]  March 11, 2014
+
+
+Different font color based on gain/loss. (Kevin)
 [COMPLETE]  March 11, 2014
 
 
