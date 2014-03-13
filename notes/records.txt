@@ -16,6 +16,10 @@ GUI polishing and enhancements. (David, Kevin)
 [IN PROGRESS]  _____
 
 
+Fade effect in to and out of battle animation. (Kevin)
+[COMPLETE]  March 13, 2014
+
+
 Weapon durability. (Kevin)
 [COMPLETE]  March 13, 2014
 
