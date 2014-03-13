@@ -8,6 +8,25 @@ Student/Faculty Mixer.
 March 27, 2014
 --------------------------------------------------------------------------------
 
+Code refactoring, optimization, and cleanup. (Kevin)
+[IN PROGRESS] _____
+
+
+GUI polishing and enhancements. (David, Kevin)
+[IN PROGRESS]  _____
+
+
+Fade effect in to and out of battle animation. (Kevin)
+[COMPLETE]  March 13, 2014
+
+
+Weapon durability. (Kevin)
+[COMPLETE]  March 13, 2014
+
+
+Consumable item usage. (Kevin)
+[COMPLETE]  March 13, 2014
+
 
 Items with special effects. (David, Kevin)
 [COMPLETE]  March 12, 2014
@@ -31,14 +50,6 @@ Hooked battle animation attack effects on unit strike. (Kevin)
 
 Different font color based on gain/loss. (Kevin)
 [COMPLETE]  March 11, 2014
-
-
-Code refactoring, optimization, and cleanup. (Kevin)
-[IN PROGRESS] _____
-
-
-GUI polishing and enhancements. (David, Kevin)
-[IN PROGRESS]  _____
 
 
 Button and menu design. (David)
