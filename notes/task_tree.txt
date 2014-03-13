@@ -32,7 +32,7 @@ Distinguish units as player controllable units or enemy units ..................
       |        |         |
       |        |         +-- "Point-and-click" assist for friendly units ....... [COMPLETE]
       |        |         |    |
-      |        |         |    +-- Heal/Item assist friendly units .............. []
+      |        |         |    +-- Heal/Item assist friendly units .............. [COMPLETE]
       |        |         |
       |        |         +-- "Point-and-click" trade for friendly units ........ [COMPLETE]
       |        |              |
@@ -110,7 +110,7 @@ Read and parse item catalog ....................................................
       |    |    |
       |    |    +-- Weapon durability and breaking ............................. []
       |    |
-      |    +-- Consumable items ................................................ []
+      |    +-- Consumable items ................................................ [COMPLETE]
       |    |
       |    +-- Item quantity and stacking ...................................... []
       |    |
@@ -118,7 +118,7 @@ Read and parse item catalog ....................................................
       |
       +-- Enemy item drops ..................................................... [???]
       |
-      +-- Items with special/unique effects .................................... []
+      +-- Items with special/unique effects .................................... [COMPLETE]
 
 
 GRAPHICAL USER INTERFACE
@@ -140,7 +140,7 @@ Draw menu to game screen .......................................................
  |    |    |
  |    |    +-- Equip weapon button ............................................. [COMPLETE]
  |    |    |
- |    |    +-- Use item button ................................................. []
+ |    |    +-- Use item button ................................................. [COMPLETE]
  |    |    |
  |    |    +-- Equipment stats mini-screen ..................................... [COMPLETE]
  |    |
