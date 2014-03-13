@@ -279,4 +279,5 @@ ADDITIONAL IDEAS (may or may or may not be implemented)
 * Improved enemy AI
     - Weapon swapping before battle
     - Flee (run away from attacker)
+* Dynamic (user-controlled) unit movement path
 
