@@ -114,6 +114,8 @@ Read and parse item catalog ....................................................
       |    |
       |    +-- Item quantity and usage ......................................... [COMPLETE]
       |    |
+      |    +-- Discard items ................................................... [COMPLETE]
+      |    |
       |    +-- Inventory check for valid item .................................. [COMPLETE]
       |
       +-- Enemy item drops ..................................................... [COMPLETE]
@@ -141,6 +143,8 @@ Draw menu to game screen .......................................................
  |    |    +-- Equip weapon button ............................................. [COMPLETE]
  |    |    |
  |    |    +-- Use item button ................................................. [COMPLETE]
+ |    |    |
+ |    |    +-- Discard item button ............................................. [COMPLETE]
  |    |    |
  |    |    +-- Equipment stats mini-screen ..................................... [COMPLETE]
  |    |

@@ -17,16 +17,20 @@ GUI polishing and enhancements. (David, Kevin)
 [IN PROGRESS]  _____
 
 
-Enemy item drops. (Chris)
+Discard item from inventory. (Kevin)
 [COMPLETE]  March 15, 2014
 
 
-Melee weapon triangle. (David)
+Enemy item drops. (Chris)
 [COMPLETE]  March 14, 2014
+
+
+Melee weapon triangle. (David)
+[COMPLETE]  March 13, 2014
 
 
 Item usage/durability and icon image for buttons. (Kevin)
-[COMPLETE]  March 14, 2014
+[COMPLETE]  March 13, 2014
 
 
 Fade effect in to and out of battle animation. (Kevin)
