@@ -106,7 +106,7 @@ Read and parse item catalog ....................................................
       |    |
       |    +-- Equipment system ................................................ [COMPLETE]
       |    |    |
-      |    |    +-- Weapon versus weapon advantage/disadvantage ................ [IN PROGRESS]
+      |    |    +-- Melee weapon versus weapon advantage/disadvantage .......... [COMPLETE]
       |    |    |
       |    |    +-- Weapon durability and breaking ............................. [COMPLETE]
       |    |
@@ -114,9 +114,9 @@ Read and parse item catalog ....................................................
       |    |
       |    +-- Item quantity and usage ......................................... [COMPLETE]
       |    |
-      |    +-- Inventory check for valid item .................................. []
+      |    +-- Inventory check for valid item .................................. [COMPLETE]
       |
-      +-- Enemy item drops ..................................................... [???]
+      +-- Enemy item drops ..................................................... [COMPLETE]
       |
       +-- Items with special/unique effects .................................... [COMPLETE]
 

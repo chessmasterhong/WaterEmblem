@@ -8,12 +8,25 @@ Student/Faculty Mixer.
 March 27, 2014
 --------------------------------------------------------------------------------
 
+
 Code refactoring, optimization, and cleanup. (Kevin)
 [IN PROGRESS] _____
 
 
 GUI polishing and enhancements. (David, Kevin)
 [IN PROGRESS]  _____
+
+
+Enemy item drops. (Chris)
+[COMPLETE]  March 15, 2014
+
+
+Melee weapon triangle. (David)
+[COMPLETE]  March 14, 2014
+
+
+Item usage/durability and icon image for buttons. (Kevin)
+[COMPLETE]  March 14, 2014
 
 
 Fade effect in to and out of battle animation. (Kevin)
@@ -56,7 +69,7 @@ Button and menu design. (David)
 [COMPLETE]  March 10, 2014
 
 
-Trade items between two friendly player units. (Kevin)
+Trade items between two friendly player units. (Kevin, David)
 [COMPLETE]  March 09, 2014
 
 
@@ -169,10 +182,6 @@ Unit detection on mouse cusror hover. (Kevin)
 
 Terrain detection on mouse cursor hover. (Kevin)
 [COMPLETE]  March 02, 2014
-
-
-Trade system between two player units. (David)
-[_____]  March 02, 2014
 
 
 Attack and trade button in menu. (David)
