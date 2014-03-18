@@ -17,6 +17,14 @@ GUI polishing and enhancements. (David, Kevin)
 [IN PROGRESS]  _____
 
 
+Fine-positioning unit battle animations. (David)
+[COMPLETE]  March 15, 2014
+
+
+Refactored buttons. (Kevin)
+[COMPLETE]  March 15, 2014
+
+
 Discard item from inventory. (Kevin)
 [COMPLETE]  March 15, 2014
 
