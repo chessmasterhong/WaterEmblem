@@ -10,11 +10,43 @@ March 27, 2014
 
 
 Code refactoring, optimization, and cleanup. (Kevin)
-[IN PROGRESS] _____
+[COMPLETE]  March 25, 2014
 
 
 GUI polishing and enhancements. (David, Kevin)
-[IN PROGRESS]  _____
+[COMPLETE]  March 25, 2014
+
+
+Unit battle animation fade away when unit is defeated. (Kevin)
+[COMPLETE]  March 25, 2014
+
+
+Custom artwork for title screen. (Enan)
+[COMPLETE]  March 25, 2014
+
+
+Custom music: "Companions". (Chris)
+[COMPLETE]  March 23, 2014
+
+
+Rewrote battle animation sequence to register normal, critical, and magical attacks. (Kevin)
+[COMPLETE]  March 22, 2014
+
+
+Partial experience gain when enemy unit is not defeated. (Kim)
+[COMPLETE]  March 20, 2014
+
+
+Hooked up king battle animation. (David)
+[COMPLETE]  March 17, 2014
+
+
+Hooked up sage, lord, and wyvern lord battle animations. (David)
+[COMPLETE]  March 15, 2014
+
+
+Critical animations. (David)
+[COMPLETE]  March 15, 2014
 
 
 Fine-positioning unit battle animations. (David)

@@ -84,11 +84,11 @@ Base stats .....................................................................
  |    |    |
  |    |    +-- Unit class promotion ............................................ []
  |    |    |
- |    |    +-- Experience bonus/penalty based on level ......................... [IN PROGRESS]
+ |    |    +-- Experience bonus/penalty based on level ......................... [COMPLETE]
  |    |
- |    +-- Partial experience gain when target unit is not defeated ............. [IN PROGRESS]
+ |    +-- Partial experience gain when target unit is not defeated ............. [COMPLETE]
  |    |
- |    +-- Experience gain for friendly assistance .............................. []
+ |    +-- Experience gain for friendly assistance .............................. [IN PROGRESS]
  |
  +-- Stat increase chance ...................................................... [COMPLETE]
       |
