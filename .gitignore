@@ -1,9 +1,10 @@
-weltmeister.html
-server.py
 lib/impact/**
 lib/weltmeister/**
+media/**
 tools/**
 
+server.py
+weltmeister.html
 
 .DS_Store
 thumbs.db
