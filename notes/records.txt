@@ -3,6 +3,14 @@
 ################################################################################
 
 
+Suspend and resume game. (Kevin)
+[COMPLETE]  April 01, 2014
+
+
+Game configuration settings. (Kevin)
+[COMPLETE]  March 31, 2014
+
+
 --------------------------------------------------------------------------------
 Student/Faculty Mixer.
 March 27, 2014
