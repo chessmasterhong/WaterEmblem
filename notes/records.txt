@@ -3,6 +3,50 @@
 ################################################################################
 
 
+A* with terrain weight detection. (Kevin, David)
+[ON HOLD]  _____
+
+
+Non-linear player unit movement order. (Kevin)
+[IN PROGRESS]  _____
+
+
+Ranged attack detection and battle animation. (Kevin)
+[IN PROGRESS]  _____
+
+
+Map objective: Sieze the throne. (Kim)
+[IN PROGRESS]  _____
+
+
+Discard excess item prompt. (Chris)
+[IN PROGRESS]  _____
+
+
+Dialog system. (David)
+[COMPLETE]  April 17, 2014
+
+
+Map objective: Survive for specified number of turns. (Kim)
+[COMPLETE]  April 05, 2014
+
+
+Shop system and currency. (David)
+[COMPLETE]  April 12, 2014
+
+
+Map objectives framework. (Kevin)
+[COMPLETE]  April 09, 2014
+
+
+Experience gain for friendly assist. (Kim)
+[COMPLETE]  April 07, 2014
+
+
+Map scripts framework. (Kevin)
+[COMPLETE]  April 07, 2014
+
+
 Suspend and resume game. (Kevin)
 [COMPLETE]  April 01, 2014
 
