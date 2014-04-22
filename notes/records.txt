@@ -19,6 +19,10 @@ Map objective: Sieze the throne. (Kim)
 [IN PROGRESS]  _____
 
 
+Unit equippable weapon restrictions. (David)
+[IN PROGRESS]  _____
+
+
 Discard excess item prompt. (Chris)
 [IN PROGRESS]  _____
 
@@ -133,7 +137,7 @@ Weapon durability. (Kevin)
 [COMPLETE]  March 13, 2014
 
 
-Consumable item usage. (Kevin)
+Consumable item usage. (David, Kevin)
 [COMPLETE]  March 13, 2014
 
 
