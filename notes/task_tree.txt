@@ -9,6 +9,8 @@ BATTLE SYSTEM
 Distinguish units as player controllable units or enemy units .................. [COMPLETE]
  |
  +-- Control multiple player units ............................................. [COMPLETE]
+ |    |
+ |    +-- Non-linear player unit movement selection ............................ [IN PROGRESS]
  |
  +-- Cycle active unit between player and enemy units .......................... [COMPLETE]
       |
@@ -23,12 +25,18 @@ Distinguish units as player controllable units or enemy units ..................
       |        |         +-- "Point-and-click" attack for enemy units .......... [COMPLETE]
       |        |         |    |
       |        |         |    +-- Battle animation system ...................... [COMPLETE]
+      |        |         |    |    |
+      |        |         |    |    +-- Melee attack ............................ [COMPLETE]
+      |        |         |    |    |
+      |        |         |    |    +-- Ranged attack ........................... [IN PROGRESS]
+      |        |         |    |    |
+      |        |         |    |    +-- Magic attack ............................ [COMPLETE]
       |        |         |    |
       |        |         |    +-- Attack order queue ........................... [COMPLETE]
-      |        |         |        |
-      |        |         |        +-- Counterattack ............................ [COMPLETE]
-      |        |         |        |
-      |        |         |        +-- Second attack ............................ [COMPLETE]
+      |        |         |         |
+      |        |         |         +-- Counterattack ........................... [COMPLETE]
+      |        |         |         |
+      |        |         |         +-- Second attack ........................... [COMPLETE]
       |        |         |
       |        |         +-- "Point-and-click" assist for friendly units ....... [COMPLETE]
       |        |         |    |
@@ -38,7 +46,7 @@ Distinguish units as player controllable units or enemy units ..................
       |        |              |
       |        |              +-- Trade system between two player units ........ [COMPLETE]
       |        |                   |
-      |        |                   +-- Shop system ............................. [IN PROGRESS]
+      |        |                   +-- Shop system ............................. [COMPLETE]
       |        |
       |        +-- Terrain detection when unit stands on tile .................. [COMPLETE]
       |             |
@@ -88,7 +96,7 @@ Base stats .....................................................................
  |    |
  |    +-- Partial experience gain when target unit is not defeated ............. [COMPLETE]
  |    |
- |    +-- Experience gain for friendly assistance .............................. [IN PROGRESS]
+ |    +-- Experience gain for friendly assistance .............................. [COMPLETE]
  |
  +-- Stat increase chance ...................................................... [COMPLETE]
       |
@@ -106,9 +114,11 @@ Read and parse item catalog ....................................................
       |    |
       |    +-- Equipment system ................................................ [COMPLETE]
       |    |    |
-      |    |    +-- Melee weapon versus weapon advantage/disadvantage .......... [COMPLETE]
+      |    |    +-- Melee weapon triangle ...................................... [COMPLETE]
       |    |    |
-      |    |    +-- Weapon durability and breaking ............................. [COMPLETE]
+      |    |    +-- Weapon durability .......................................... [COMPLETE]
+      |    |    |
+      |    |    +-- Equippable weapon restrictions ............................. [IN PROGRESS]
       |    |
       |    +-- Consumable items ................................................ [COMPLETE]
       |    |
@@ -116,7 +126,7 @@ Read and parse item catalog ....................................................
       |    |
       |    +-- Discard items ................................................... [COMPLETE]
       |    |    |
-      |    |    +-- Force discard item prompt if full inventory ................ [IN PROGRESS]
+      |    |    +-- Force discard item prompt if full inventory ................ [COMPLETE]
       |    |
       |    +-- Inventory check for valid item .................................. [COMPLETE]
       |
@@ -154,9 +164,9 @@ Draw menu to game screen .......................................................
  |    |    |
  |    |    +-- Trade menu  ..................................................... [COMPLETE]
  |    |
- |    +-- Shop button .......................................................... [IN PROGRESS]
+ |    +-- Shop button .......................................................... [COMPLETE]
  |    |    |
- |    |    +-- Shop menu ....................................................... [IN PROGRESS]
+ |    |    +-- Shop screen/overlay ............................................. [COMPLETE]
  |    |
  |    +-- End turn button  ..................................................... [COMPLETE]
  |
@@ -167,6 +177,8 @@ Draw menu to game screen .......................................................
  +-- Unit HP quick-summary ..................................................... [COMPLETE]
  |
  +-- Battle animation screen/overlay ........................................... [COMPLETE]
+ |
+ +-- Dialog screen/overlay ..................................................... [COMPLETE]
  |
  +-- Character portraits ....................................................... [COMPLETE]
  |
@@ -190,13 +202,13 @@ Map objectives .................................................................
  |
  +-- Defend specific unit for # amount of turns ................................ []
  |
- +-- Survive for # amount of turns ............................................. []
+ +-- Survive for # amount of turns ............................................. [COMPLETE]
  |
- +-- Sieze the tile ............................................................ []
+ +-- Sieze the tile ............................................................ [IN PROGRESS]
 
-Map scripts .................................................................... [IN PROGRESS]
+Map scripts .................................................................... [COMPLETE]
 
-Dialogues ...................................................................... []
+Dialogues ...................................................................... [COMPLETE]
 
 Randomized enemy stat system ................................................... []
 

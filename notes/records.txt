@@ -24,7 +24,7 @@ Unit equippable weapon restrictions. (David)
 
 
 Discard excess item prompt. (Chris)
-[IN PROGRESS]  _____
+[COMPLETE]  April 25, 2014
 
 
 Dialog system. (David)
