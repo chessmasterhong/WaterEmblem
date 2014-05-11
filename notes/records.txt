@@ -15,12 +15,16 @@ Ranged attack detection and battle animation. (Kevin)
 [IN PROGRESS]  _____
 
 
-Map objective: Sieze the throne. (Kim)
-[IN PROGRESS]  _____
-
-
 Unit equippable weapon restrictions. (David)
 [IN PROGRESS]  _____
+
+
+Align critical animation offset. (Kevin, David, Kim, Chris)
+[IN PROGRESS]  _____
+
+
+Map objective: Sieze the throne. (Kim)
+[COMPLETE]  May 02, 2014
 
 
 Discard excess item prompt. (Chris)
