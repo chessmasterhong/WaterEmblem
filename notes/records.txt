@@ -19,8 +19,16 @@ Unit equippable weapon restrictions. (David)
 [IN PROGRESS]  _____
 
 
-Align critical animation offset. (Kevin, David, Kim, Chris)
+Align critical animation offset. (David, Kim, Chris)
 [IN PROGRESS]  _____
+
+
+Custom artwork for game over screen. (Enan)
+[COMPLETED]  May 09, 2014
+
+
+Align critical animation offset. (Kevin)
+[PARTIALLY COMPLETED]  May 05, 2014
 
 
 Map objective: Sieze the throne. (Kim)
