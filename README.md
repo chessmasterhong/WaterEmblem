@@ -9,6 +9,7 @@ The whole draw of Fire Emblem is the ability for a player to control an army of 
 medival world overun by nations and demons bent on destroying the world. To this day, there are Fire 
 Emblem games on various gaming consoles, but none that are web-based.
 
+
 What is this game?
 ------------------
 
@@ -30,6 +31,7 @@ names, weapons/items along with their corresponding animations, all graphical us
 battle animation interfaces), as well as the gameplay concepts. These resources are **solely used for the sake of a realistic
 remake of a well-known game**. 
 
+
 Progress
 --------
 
@@ -49,13 +51,14 @@ below shows the current systems that have been implemented within Fire Emblem - 
 * Inventory / Equipment / Trade System for Friendly Units
 * Detection of all Friendly/Enemy units for Attack/Assist
 * Battle Queue for Normal, Critical and Spell Animations System
+* Dialog System
+* Map Objectives (defeat all enemies, survive for number of turns, seize the tile)
 
 Along with the completed systems, there are also a number of things left to be done. These include:
 
-* Dialog System
-* More Map Objectives
 * Building a weapon profiency system
 * An updated A* Pathfinding Algorithm which factors in Terrain movement penalties
+* Scripted conditions
 
 
 Contributors

@@ -23,6 +23,10 @@ Align critical animation offset. (David, Kim, Chris)
 [IN PROGRESS]  _____
 
 
+Unit stats screen. (David)
+[COMPLETED]  July 11, 2014
+
+
 Custom artwork for game over screen. (Enan)
 [COMPLETED]  May 09, 2014
 
