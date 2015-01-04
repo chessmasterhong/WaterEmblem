@@ -1,0 +1,32 @@
+{
+    // Enforcing options
+    "bitwise": true,
+    "camelcase": true,
+    "curly": true,
+    "eqeqeq": true,
+    "immed": true,
+    "indent": 4,
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "nonbsp": true,
+    "nonew": true,
+    "quotmark": "single",
+    "strict": true,
+    "trailing": true,
+    "undef": true,
+    "unused": true,
+
+    // Relaxing options
+    "esnext": true,
+    "smarttabs": true,
+
+    // Environments
+    "browser": true,
+    "devel": true,
+
+    // Custom globals
+    "globals": {
+        "ig": true
+    }
+}
