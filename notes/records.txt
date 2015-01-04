@@ -8,19 +8,19 @@ A* with terrain weight detection. (Kevin, David)
 
 
 Non-linear player unit movement order. (Kevin)
-[IN PROGRESS]  _____
+[ON HOLD]  _____
 
 
 Ranged attack detection and battle animation. (Kevin)
-[IN PROGRESS]  _____
+[ON HOLD]  _____
 
 
 Unit equippable weapon restrictions. (David)
-[IN PROGRESS]  _____
+[ON HOLD]  _____
 
 
 Align critical animation offset. (David, Kim, Chris)
-[IN PROGRESS]  _____
+[ON HOLD]  _____
 
 
 Unit stats screen. (David)
@@ -43,6 +43,12 @@ Discard excess item prompt. (Chris)
 [COMPLETE]  April 25, 2014
 
 
+--------------------------------------------------------------------------------
+Milestone 9: Cutscenes and dialogues.
+[COMPLETE]  April 17, 2014
+--------------------------------------------------------------------------------
+
+
 Dialog system. (David)
 [COMPLETE]  April 17, 2014
 
@@ -53,6 +59,12 @@ Map objective: Survive for specified number of turns. (Kim)
 
 Shop system and currency. (David)
 [COMPLETE]  April 12, 2014
+
+
+--------------------------------------------------------------------------------
+Milestone 8: Map objectives and scripts.
+[COMPLETE]  April 09, 2014
+--------------------------------------------------------------------------------
 
 
 Map objectives framework. (Kevin)
@@ -127,6 +139,12 @@ Fine-positioning unit battle animations. (David)
 
 Refactored buttons. (Kevin)
 [COMPLETE]  March 15, 2014
+
+
+--------------------------------------------------------------------------------
+Milestone 7: Items (Equipments, Consumables, Enemy Loot, Durability).
+[COMPLETE]  March 15, 2014
+--------------------------------------------------------------------------------
 
 
 Discard item from inventory. (Kevin)
