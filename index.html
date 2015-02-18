@@ -2,7 +2,7 @@
 <html lang="en-us">
     <head>
         <meta charset="utf-8">
-        <title>Demo</title>
+        <title></title>
 
         <style type="text/css">
             html, body {
@@ -19,30 +19,6 @@
             #canvas {
                 border: 1px solid #2F2F2F;
                 margin: 40px auto 20px;
-
-                /* Provides a hint to the user agent about how to handle its image rendering.
-                 * http://phrogz.net/tmp/canvas_image_zoom.html
-                 * http://stackoverflow.com/questions/3900436/image-scaling-by-css-is-there-a-webkit-alternative-for-moz-crisp-edges/8888964
-                 */
-                image-rendering: optimizeSpeed;             /* Legal fallback */
-                image-rendering: -moz-crisp-edges;          /* Firefox        */
-                image-rendering: -o-crisp-edges;            /* Opera          */
-                image-rendering: -webkit-optimize-contrast; /* Webkit         */
-                image-rendering: optimize-contrast;         /* CSS3 Proposed  */
-                image-rendering: crisp-edges;               /* CSS4 Proposed  */
-                image-rendering: pixelated;                 /* CSS4 Proposed  */
-                -ms-interpolation-mode: nearest-neighbor;   /* IE8+           */
-            }
-
-            #controls {
-                font-size: 10pt;
-                line-height: 150%;
-            }
-
-            .key {
-                border: 1px solid #FFFFFF;
-                font-family: "Courier New", Courier, monospace;
-                padding: 0 4px;
             }
         </style>
 
@@ -50,18 +26,8 @@
         <script type="text/javascript" src="lib/game/main.js"></script>
     </head>
     <body>
-        <header></header>
         <div id="container">
             <canvas id="canvas"></canvas>
-            <div id="controls">
-                Controls:<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="key">Left Mouse Button</span> : Move unit, select unit, select menu options<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="key">Right Mouse Button</span> : Display game menu<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="key">ESC</span> : Cancel menus, cancel selections, undo actions<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="key">ENTER</span> : Display current unit's stats screen<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="key">C</span> : Toggle camera focus (mouse cursor or current unit)
-            </div>
         </div>
-        <footer></footer>
     </body>
 </html>
