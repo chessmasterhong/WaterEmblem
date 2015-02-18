@@ -2,13 +2,24 @@
 <html lang="en-us">
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <meta name="description" content="Fire Emblem: Chronicles of the Abyss is a non-profit derivative work of Nintendo's and Intelligent Systems' Fire Emblem: The Blazing Sword developed strictly for educational purposes. Made by the City College of New York Association for Computing Machinery Game Development Special Interest Group: Kevin Chan, David Leonard, Wan Kim Mok, Jeremy Neiman, Enan Rahman, Christopher Zhang.">
+
+        <title>Fire Emblem: Chronicles of the Abyss</title>
 
         <style type="text/css">
             html, body {
                 background-color: #1A1A1A;
                 color: #FFFFFF;
                 font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+            }
+
+            header { padding: 10px 0 20px; }
+
+            footer {
+                font-size: small;
+                margin: 0 20px 50px;
+                padding: 20px 0 10px;
             }
 
             #container {
@@ -18,16 +29,31 @@
 
             #canvas {
                 border: 1px solid #2F2F2F;
-                margin: 40px auto 20px;
+                margin: 0 auto;
             }
+
+            #content a { color: #FFFF66; }
         </style>
 
         <script type="text/javascript" src="lib/impact/impact.js"></script>
         <script type="text/javascript" src="lib/game/main.js"></script>
     </head>
     <body>
+        <header>
+            <h1>Fire Emblem: Chronicles of the Abyss</h1>
+        </header>
         <div id="container">
             <canvas id="canvas"></canvas>
+            <div id="content">
+                <ul>
+                    <p><a href="//github.com/chessmasterhong/WaterEmblem/wiki">User Manual and Gameplay Features</a></p>
+                    <p><a href="//github.com/chessmasterhong/WaterEmblem">Source Code</a></p>
+                </ul>
+            </div>
         </div>
+        <footer>
+            <hr>
+            <p>Fire Emblem: Chronicles of the Abyss is a non-profit fan-made game created strictly for educational purposes. All animations, map tiles, characters, sound effects, and gameplay mechanics are property of both Nintendo and Intelligent Systems.</p>
+        </footer>
     </body>
 </html>
