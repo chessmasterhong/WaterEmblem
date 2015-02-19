@@ -1,3 +1,10 @@
+html, body {
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
 .img-centered {
     margin: 0 auto;
 }
@@ -63,6 +70,18 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 
+#main {
+    margin: 30px auto 20px;
+    width: 640px;
+}
+
+#main a { color: #FFFF66; }
+
+#canvas {
+    border: 1px solid #2F2F2F;
+    margin: 30px auto 20px;
+}
+
 .team-member {
     margin-bottom: 50px;
     text-align: center;
@@ -107,4 +126,9 @@ ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
     background-color: #fed136;
+}
+
+footer {
+    font-size: 0.85em;
+    margin: 0 20px 10px;
 }
