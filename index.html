@@ -23,23 +23,22 @@
                 text-align: center;
             }
 
-            header { padding: 10px 0 20px; }
-
             footer {
-                font-size: small;
-                margin: 0 20px 50px;
-                padding: 20px 0 10px;
+                font-size: 0.85em;
+                margin: 0 20px 10px;
             }
 
             #container {
-                margin: 0px auto;
+                margin: 30px auto 0;
                 width: 640px;
             }
 
             #canvas {
                 border: 1px solid #2F2F2F;
-                margin: 0 auto;
+                margin: 30px auto 20px;
             }
+
+            #content { margin-bottom: 20px; }
 
             #content a { color: #FFFF66; }
         </style>
@@ -48,7 +47,6 @@
         <script type="text/javascript" src="lib/game/main.js"></script>
     </head>
     <body>
-
         <!-- Header -->
         <header>
             <div class="container">
@@ -56,14 +54,12 @@
                 </div>
             </div>
         </header>
-        <h1>Fire Emblem: Chronicles of the Abyss</h1>
-        <div id="container" style="padding-top: 20px;">
+        <div id="container">
+            <h1>Fire Emblem: Chronicles of the Abyss</h1>
             <canvas id="canvas"></canvas>
             <div id="content">
-                <ul>
-                    <p><a href="//github.com/chessmasterhong/WaterEmblem/wiki">User Manual and Gameplay Features</a></p>
-                    <p><a href="//github.com/chessmasterhong/WaterEmblem">Source Code</a></p>
-                </ul>
+                <p><a href="//github.com/chessmasterhong/WaterEmblem/wiki">User Manual and Gameplay Features</a></p>
+                <p><a href="//github.com/chessmasterhong/WaterEmblem">Source Code</a></p>
             </div>
         </div>
 
@@ -131,8 +127,7 @@
             </div>
         </section>
 
-
-
+        <!-- Footer -->
         <footer>
             <hr>
             <p>Fire Emblem: Chronicles of the Abyss is a non-profit fan-made game created strictly for educational purposes. All animations, map tiles, characters, sound effects, and gameplay mechanics are property of both Nintendo and Intelligent Systems.</p>
