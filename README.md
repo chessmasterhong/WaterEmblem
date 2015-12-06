@@ -24,7 +24,7 @@ Engine to its limits.
 
 Disclaimer
 ----------
-This game is build **purely for education purposes**. As such, this is a
+This game is built **purely for education purposes**. As such, this is a
 **non-profit** project, and is **not meant for wide distribution**. All included
 graphics are copyright of Nintendo and Intelligent Systems (except for the
 custom title screen art and game music). These copyrighted resources include:
